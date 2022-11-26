@@ -1,6 +1,11 @@
+.containerApp {
+    position: relative;
+}
+
 #cursor {
     position: absolute;
     width: 1rem;
+    z-index: 10;
     height: 1rem;
     background-color: #2128DB;
     box-sizing: border-box;
