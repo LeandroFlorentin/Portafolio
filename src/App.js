@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import OnePage from './Components/OnePage'
+import './App.css'
 function App() {
+
+  const mover = (e) => {
+    const cursor = document.querySelector('#cursor')
+    var x = e.clientX;
+    var y = e.clientY;
+    cursor.style.left = x + 'px'
+    cursor.style.top = y + "px"
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='containerApp' onMouseMove={mover}>
+      <div id='cursor'></div>
+      <OnePage />
     </div>
   );
 }

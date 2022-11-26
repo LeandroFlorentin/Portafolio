@@ -1,0 +1,437 @@
+.containerSobreMi {
+    height: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.noFixed {
+    margin-top: 60px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes entrada {
+    0% {
+        bottom: -140%;
+    }
+
+    100% {
+        bottom: 0%;
+    }
+}
+
+.letra {
+    color: #2128DB;
+    font-size: 85px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.containerHola {
+    width: 14rem;
+    position: relative;
+    overflow: hidden;
+    animation-name: entrada;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerHola::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #b9e3ff;
+    left: 0;
+    bottom: 0;
+    animation-duration: 4s;
+    animation-name: entradaIzq;
+}
+
+.containerHola span {
+    position: relative;
+    z-index: -3;
+}
+
+@keyframes entradaIzq {
+    0% {
+        left: -100%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.containerHola span:nth-child(1) {
+    animation: muestraLetra 4s ease-in-out;
+}
+
+.containerHola span:nth-child(2) {
+    animation: muestraLetra 4.5s ease-in-out;
+}
+
+.containerHola span:nth-child(3) {
+    animation: muestraLetra 5s ease-in-out;
+}
+
+.containerHola span:nth-child(4) {
+    animation: muestraLetra 5.5s ease-in-out;
+}
+
+.containerHola span:nth-child(5) {
+    animation: muestraLetra 6s ease-in-out;
+}
+
+@keyframes muestraLetra {
+    0% {
+        filter: opacity(0%);
+    }
+
+    100% {
+        filter: opacity(100%);
+    }
+}
+
+.containerLeandro {
+    width: 34rem;
+    position: relative;
+    overflow: hidden;
+    animation-name: entrada;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerLeandro span {
+    position: relative;
+    z-index: -3;
+}
+
+.containerLeandro::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #81c9fa;
+    left: 0;
+    bottom: 0;
+    animation-name: entradaIzq;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    z-index: -1;
+}
+
+.containerLeandro span:nth-child(1) {
+    animation: muestraLetra 6.2s ease-in-out;
+}
+
+.containerLeandro span:nth-child(2) {
+    animation: muestraLetra 6.4s ease-in-out;
+}
+
+.containerLeandro span:nth-child(3) {
+    margin-right: 25px;
+    animation: muestraLetra 6.6s ease-in-out;
+}
+
+.containerLeandro span:nth-child(4) {
+    animation: muestraLetra 6.8s ease-in-out;
+}
+
+.containerLeandro span:nth-child(5) {
+    animation: muestraLetra 7s ease-in-out;
+}
+
+.containerLeandro span:nth-child(6) {
+    animation: muestraLetra 7.2s ease-in-out;
+}
+
+.containerLeandro span:nth-child(7) {
+    animation: muestraLetra 7.4s ease-in-out;
+}
+
+.containerLeandro span:nth-child(8) {
+    animation: muestraLetra 7.6s ease-in-out;
+}
+
+.containerLeandro span:nth-child(9) {
+    animation: muestraLetra 7.8s ease-in-out;
+}
+
+.containerLeandro span:nth-child(10) {
+    animation: muestraLetra 8s ease-in-out;
+}
+
+.containerDesarrollador {
+    width: 66rem;
+    position: relative;
+    overflow: hidden;
+    animation-name: entrada;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerDesarrollador span {
+    position: relative;
+    z-index: -3;
+}
+
+.containerDesarrollador::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #2196f3;
+    left: 0;
+    bottom: 0;
+    animation-name: entradaIzq;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    z-index: -1;
+}
+
+.containerDesarrollador span:nth-child(1) {
+    animation: muestraLetra 8.2s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(2) {
+    animation: muestraLetra 8.4s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(3) {
+    animation: muestraLetra 8.6s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(4) {
+    animation: muestraLetra 8.8s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(5) {
+    animation: muestraLetra 9s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(6) {
+    animation: muestraLetra 9.2s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(7) {
+    animation: muestraLetra 9.4s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(8) {
+    animation: muestraLetra 9.6s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(9) {
+    animation: muestraLetra 9.8s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(10) {
+    animation: muestraLetra 10s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(11) {
+    animation: muestraLetra 10.2s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(12) {
+    animation: muestraLetra 10.4s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(13) {
+    animation: muestraLetra 10.6s ease-in-out;
+    margin-right: 25px;
+}
+
+.containerDesarrollador span:nth-child(14) {
+    animation: muestraLetra 10.8s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(15) {
+    animation: muestraLetra 11s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(16) {
+    animation: muestraLetra 11.2s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(17) {
+    animation: muestraLetra 11.4s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(18) {
+    animation: muestraLetra 11.6s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(19) {
+    animation: muestraLetra 11.8s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(20) {
+    animation: muestraLetra 12s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(21) {
+    animation: muestraLetra 12.2s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(22) {
+    animation: muestraLetra 12.4s ease-in-out;
+}
+
+.containerDesarrollador span:nth-child(23) {
+    animation: muestraLetra 12.6s ease-in-out;
+}
+
+.pelotita1 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    border-radius: 100%;
+    left: 5%;
+    z-index: -5;
+    bottom: -10%;
+    animation-name: muestra;
+    animation-delay: 4s;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.pelotita2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 100%;
+    left: 40%;
+    z-index: -5;
+    bottom: -10%;
+    animation-name: muestra;
+    animation-delay: 5s;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.pelotita3 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 100%;
+    left: 30%;
+    z-index: -5;
+    bottom: -10%;
+    animation-name: muestra;
+    animation-delay: 3s;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.pelotita4 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100%;
+    left: 60%;
+    z-index: -5;
+    bottom: -10%;
+    animation-name: muestra;
+    animation-delay: 8s;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.pelotita5 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: violet;
+    border-radius: 100%;
+    left: 70%;
+    z-index: -5;
+    bottom: -10%;
+    animation-name: muestra;
+    animation-delay: 7s;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.pelotita6 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: maroon;
+    border-radius: 100%;
+    left: 90%;
+    z-index: -5;
+    bottom: -10%;
+    animation-name: muestra;
+    animation-delay: 4.5s;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.pelotita7 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 100%;
+    left: 98%;
+    z-index: -5;
+    bottom: -10%;
+    animation-name: muestra;
+    animation-delay: 5.5s;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.pelotita8 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: deeppink;
+    border-radius: 100%;
+    left: 10%;
+    z-index: -5;
+    bottom: -10%;
+    animation-name: muestra;
+    animation-delay: 5.5s;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes muestra {
+    0% {
+        bottom: -10%;
+    }
+
+    100% {
+        bottom: 130%;
+    }
+}

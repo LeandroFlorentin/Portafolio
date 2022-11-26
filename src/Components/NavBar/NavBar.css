@@ -1,0 +1,87 @@
+.containerNavBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: fixed;
+    align-items: center;
+    background-color: transparent;
+    height: 20px;
+    color: transparent;
+}
+
+.Persona {
+    margin-left: 50px;
+    font-weight: 600;
+    color: #2128DB;
+    transition: 250ms all;
+}
+
+.containerSpan {
+    margin-right: 100px;
+    display: flex;
+}
+
+.containerSpan div {
+    margin-left: 40px;
+    font-weight: 600;
+    color: transparent;
+    font-size: 14px;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.containerSpan div:nth-child(1) {
+    content: "Sobre mi";
+    color: #2128DB;
+    position: relative;
+    top: 0;
+    transition: .5s all;
+}
+
+.containerSpan div:nth-child(1):hover {
+    top: -20px;
+}
+
+
+.containerSpan div:nth-child(2) {
+    content: "Habilidades";
+    color: #2128DB;
+    position: relative;
+    top: 0;
+    transition: .5s all;
+}
+
+.containerSpan div:nth-child(2):hover {
+    top: -20px;
+}
+
+.containerSpan div:nth-child(3) {
+    content: "Proyecto";
+    color: #2128DB;
+    position: relative;
+    top: 0;
+    transition: .5s all;
+}
+
+
+.containerSpan div:nth-child(3):hover {
+    top: -20px;
+}
+
+.containerSpan div:nth-child(4) {
+    content: "Contacto";
+    color: #2128DB;
+    position: relative;
+    top: 0;
+    transition: .5s all;
+}
+
+
+.containerSpan div:nth-child(4):hover {
+    top: -20px;
+}
