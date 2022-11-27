@@ -19,6 +19,7 @@
     flex-direction: column;
     position: relative;
     overflow: hidden;
+    z-index: -1;
 }
 
 @keyframes entrada {
