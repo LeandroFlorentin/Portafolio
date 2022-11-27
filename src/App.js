@@ -19,12 +19,14 @@ function App() {
     <div className='containerApp' onMouseMove={mover}>
       <div id='cursor'></div>
       <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path='/' element={<Landing />} />
-          <Route exact path='/SobreMi' element={<SobreMi />} />
-          <Route exact path='/Habilidades' element={<Habilidades />} />
-        </Routes>
+        <div className='containerNavRutas'>
+          <NavBar />
+          <Routes>
+            <Route path='/' element={<Landing />} />
+            <Route exact path='/SobreMi' element={<SobreMi />} />
+            <Route exact path='/Habilidades' element={<Habilidades />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </div>
   );

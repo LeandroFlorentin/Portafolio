@@ -2,6 +2,13 @@
     position: relative;
 }
 
+.containerNavRutas {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+}
+
 #cursor {
     position: absolute;
     width: 1rem;

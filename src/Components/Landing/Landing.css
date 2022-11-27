@@ -6,7 +6,6 @@
     justify-content: center;
     position: relative;
     z-index: 1;
-    top: 70px;
 }
 
 .noFixed {
@@ -551,7 +550,7 @@
 @media (max-width:425px) {
 
     .containerSobreMi {
-        top: 110px;
+        top: 30px;
     }
 
     .noFixed {
