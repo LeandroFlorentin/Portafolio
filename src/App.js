@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Landing from './Components/Landing'
 import NavBar from './Components/NavBar'
 import Habilidades from './Components/Habilidades'
+import SobreMi from './Components/SobreMi'
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<Landing />} />
-          <Route path='/Habilidades' element={<Habilidades />} />
+          <Route exact path='/SobreMi' element={<SobreMi />} />
+          <Route exact path='/Habilidades' element={<Habilidades />} />
         </Routes>
       </BrowserRouter>
     </div>

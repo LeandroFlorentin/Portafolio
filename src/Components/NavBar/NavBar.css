@@ -28,6 +28,12 @@
     animation-timing-function: ease-in-out;
 }
 
+.Persona::first-letter {
+    font-style: italic;
+    font-size: 30px;
+    margin-right: 2px;
+}
+
 @keyframes entradaPersona {
     0% {
         left: -50%;
