@@ -550,6 +550,10 @@
 
 @media (max-width:425px) {
 
+    .containerSobreMi {
+        top: 110px;
+    }
+
     .noFixed {
         justify-content: start;
     }
