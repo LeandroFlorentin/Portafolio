@@ -48,13 +48,13 @@ const NavBar = () => {
 
     return (
         <>
-            <div className='containerNavBar'>
+            <div className='containerNavBar' onClick={pararPropa}>
                 <span className='Persona' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/')}>Leandro</span>
                 <div className='containerSpan'>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/SobreMi')}>Sobre mi</div>
-                    <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Habilidades')}>Habilidades</div>
-                    <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Proyectos')}>Proyectos</div>
-                    <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Contacto')}>Contacto</div>
+                    <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Habilidades')}>Habilidades</div>
+                    <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Proyectos')}>Proyectos</div>
+                    <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Contacto')}>Contacto</div>
                 </div>
                 <div className='containerDesplegable' onClick={openMenu}>
                     <div className='lineaDesple1'></div>
@@ -65,11 +65,11 @@ const NavBar = () => {
                     abrirMenu ?
                         <div className='containerMenuDesple' onClick={pararPropa}>
                             <div className='containerMenu'>
-                                <button onClick={cerrarMenu}>x</button>
-                                <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/SobreMi')}>Sobre mi</div>
-                                <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Habilidades')}>Habilidades</div>
-                                <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Proyectos')}>Proyectos</div>
-                                <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Contacto')}>Contacto</div>
+                                <button onClick={cerrarMenu}>X</button>
+                                <div onClick={() => navigate('/SobreMi')}>Sobre mi</div>
+                                <div onClick={() => navigate('/Habilidades')}>Habilidades</div>
+                                <div onClick={() => navigate('/Proyectos')}>Proyectos</div>
+                                <div onClick={() => navigate('/Contacto')}>Contacto</div>
                             </div>
                         </div>
                         :
