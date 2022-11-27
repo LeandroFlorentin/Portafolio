@@ -182,7 +182,7 @@
         height: 15vh;
         background-color: #fff;
         z-index: 100;
-        top: -50px;
+        top: -40px;
         animation-name: desplegable;
         animation-duration: 2s;
         animation-timing-function: ease-in-out;
