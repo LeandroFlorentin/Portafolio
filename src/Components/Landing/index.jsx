@@ -41,30 +41,34 @@ const SobreMi = () => {
                         <span className='letra'>r</span>
                         <span className='letra'>o</span>
                     </div>
-                    <div className='containerDesarrollador' onMouseEnter={mover} onMouseLeave={volver}>
-                        <span className='letra'>d</span>
-                        <span className='letra'>e</span>
-                        <span className='letra'>s</span>
-                        <span className='letra'>a</span>
-                        <span className='letra'>r</span>
-                        <span className='letra'>r</span>
-                        <span className='letra'>o</span>
-                        <span className='letra'>l</span>
-                        <span className='letra'>l</span>
-                        <span className='letra'>a</span>
-                        <span className='letra'>d</span>
-                        <span className='letra'>o</span>
-                        <span className='letra'>r</span>
-                        <span className='letra'>F</span>
-                        <span className='letra'>u</span>
-                        <span className='letra'>l</span>
-                        <span className='letra'>l</span>
-                        <span className='letra'>-</span>
-                        <span className='letra'>S</span>
-                        <span className='letra'>t</span>
-                        <span className='letra'>a</span>
-                        <span className='letra'>c</span>
-                        <span className='letra'>k</span>
+                    <div className='containerDesarrollador'>
+                        <div onMouseEnter={mover} onMouseLeave={volver}>
+                            <span className='letra'>d</span>
+                            <span className='letra'>e</span>
+                            <span className='letra'>s</span>
+                            <span className='letra'>a</span>
+                            <span className='letra'>r</span>
+                            <span className='letra'>r</span>
+                            <span className='letra'>o</span>
+                            <span className='letra'>l</span>
+                            <span className='letra'>l</span>
+                            <span className='letra'>a</span>
+                            <span className='letra'>d</span>
+                            <span className='letra'>o</span>
+                            <span className='letra'>r</span>
+                        </div>
+                        <div onMouseEnter={mover} onMouseLeave={volver}>
+                            <span className='letra'>F</span>
+                            <span className='letra'>u</span>
+                            <span className='letra'>l</span>
+                            <span className='letra'>l</span>
+                            <span className='letra'>-</span>
+                            <span className='letra'>S</span>
+                            <span className='letra'>t</span>
+                            <span className='letra'>a</span>
+                            <span className='letra'>c</span>
+                            <span className='letra'>k</span>
+                        </div>
                     </div>
                 </div>
                 <div className='pelotita1'></div>

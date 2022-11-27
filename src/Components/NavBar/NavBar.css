@@ -10,6 +10,10 @@
     color: transparent;
 }
 
+.containerDesplegable {
+    display: none;
+}
+
 .Persona {
     margin-left: 50px;
     font-weight: 600;
@@ -125,4 +129,71 @@
 
 .containerSpan div:nth-child(4):hover {
     top: -20px;
+}
+
+@media (max-width:425px) {
+    .containerSpan {
+        display: none;
+    }
+
+    .containerDesplegable {
+        display: block;
+        color: red;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 40px;
+        z-index: 100;
+    }
+
+    .lineaDesple1 {
+        width: 40px;
+        height: 3px;
+        background-color: #2128DB;
+        border-radius: 25%;
+    }
+
+    .lineaDesple2 {
+        width: 35px;
+        height: 3px;
+        background-color: #2128DB;
+        border-radius: 25%;
+    }
+
+    .lineaDesple3 {
+        width: 40px;
+        height: 3px;
+        background-color: #2128DB;
+        border-radius: 25%;
+    }
+
+    .containerMenuDesple {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        top: 50px;
+        height: 10vh;
+        background-color: red;
+        z-index: 100;
+    }
+
+    .containerMenu {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        z-index: 100;
+    }
+
+    .containerMenuDesple div {
+        color: #fff;
+        z-index: 20;
+    }
+
+    .containerMenu button {
+        z-index: 100;
+    }
 }

@@ -55,35 +55,6 @@
     transform: scale(1);
 }
 
-.containerHola::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #81c9fa;
-    left: 0;
-    bottom: 0;
-    animation-name: entradaIzq;
-    animation-duration: 6s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    z-index: -1;
-}
-
-@keyframes entradaIzq {
-    0% {
-        left: -100%;
-    }
-
-    50% {
-        left: 50%;
-    }
-
-    100% {
-        left: -100%;
-    }
-}
-
 .containerHola span:nth-child(1) {
     animation: muestraLetra 4s ease-in-out;
 }
@@ -130,21 +101,6 @@
     transform: scale(1);
 }
 
-.containerLeandro::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #81c9fa;
-    left: 0;
-    bottom: 0;
-    animation-name: entradaIzq;
-    animation-duration: 7s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    z-index: -1;
-}
-
 .containerLeandro span:nth-child(1) {
     animation: muestraLetra 6.2s ease-in-out;
 }
@@ -187,37 +143,27 @@
 }
 
 .containerDesarrollador {
-    width: 66rem;
+    width: 75rem;
     position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
     animation-name: entrada;
     animation-duration: 8.5s;
     animation-timing-function: ease-in-out;
     transition: .5s all ease-in-out;
 }
 
-.containerDesarrollador span {
+.containerDesarrollador div {
+    transition: .5s all ease-in-out;
+}
+
+.containerDesarrollador div span {
     position: relative;
     transform: scale(1);
     z-index: -3;
 }
 
-.containerDesarrollador::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #2196f3;
-    left: 0;
-    bottom: 0;
-    animation-name: entradaIzq;
-    animation-duration: 8s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    z-index: -1;
-}
-
-.containerDesarrollador span:nth-child(1) {
+.containerDesarrollador div span:nth-child(1) {
     animation: muestraLetra 8.2s ease-in-out;
 }
 
@@ -573,5 +519,86 @@
 
     100% {
         bottom: 130%;
+    }
+}
+
+@media (max-width:1024px) {
+    .containerGlobalHola {
+        width: 90vw
+    }
+
+    .containerHola span {
+        font-size: 50px;
+    }
+
+    .containerLeandro span {
+        font-size: 50px;
+    }
+
+    .containerDesarrollador {
+        width: 40rem;
+    }
+
+    .containerDesarrollador span {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:425px) {
+    .containerHola {
+        width: 35%;
+    }
+
+    .containerLeandro {
+        width: 90%;
+    }
+
+    .containerDesarrollador {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .containerHola {
+        margin-bottom: 20px;
+    }
+
+    .containerLeandro {
+        margin-bottom: 20px;
+    }
+
+    .containerDesarrollador {
+        margin-bottom: 20px;
+    }
+
+    .containerDesarrollador div:nth-child(1) {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:375px) {
+    .containerHola span {
+        font-size: 40px;
+    }
+
+    .containerLeandro span {
+        font-size: 40px;
+    }
+
+    .containerDesarrollador div span {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:320px) {
+    .containerHola span {
+        font-size: 35px;
+    }
+
+    .containerLeandro span {
+        font-size: 35px;
+    }
+
+    .containerDesarrollador div span {
+        font-size: 35px;
     }
 }

@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './NavBar.css'
 
 const NavBar = () => {
     const navigate = useNavigate()
+    const [abrirMenu, setAbrirMenu] = useState(false)
 
     const circulo = (e) => {
         const cursor = document.querySelector('#cursor')
@@ -31,6 +32,20 @@ const NavBar = () => {
         e.target.style.transform = 'scale(1)'
     }
 
+    const openMenu = () => {
+        setAbrirMenu(true)
+    }
+
+    const pararPropa = (e) => {
+        console.log("hola")
+        e.stopPropagation()
+    }
+
+    const cerrarMenu = () => {
+        setAbrirMenu(false)
+        console.log("hola")
+    }
+
     return (
         <>
             <div className='containerNavBar'>
@@ -41,6 +56,25 @@ const NavBar = () => {
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Proyectos')}>Proyectos</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Contacto')}>Contacto</div>
                 </div>
+                <div className='containerDesplegable' onClick={openMenu}>
+                    <div className='lineaDesple1'></div>
+                    <div className='lineaDesple2'></div>
+                    <div className='lineaDesple3'></div>
+                </div>
+                {
+                    abrirMenu ?
+                        <div className='containerMenuDesple' onClick={pararPropa}>
+                            <div className='containerMenu'>
+                                <button onClick={cerrarMenu}>x</button>
+                                <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/SobreMi')}>Sobre mi</div>
+                                <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Habilidades')}>Habilidades</div>
+                                <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Proyectos')}>Proyectos</div>
+                                <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('Contacto')}>Contacto</div>
+                            </div>
+                        </div>
+                        :
+                        null
+                }
             </div>
         </>
     )
