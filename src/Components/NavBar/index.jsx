@@ -37,13 +37,11 @@ const NavBar = () => {
     }
 
     const pararPropa = (e) => {
-        console.log("hola")
         e.stopPropagation()
     }
 
     const cerrarMenu = () => {
         setAbrirMenu(false)
-        console.log("hola")
     }
 
     return (
