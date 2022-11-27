@@ -12,6 +12,7 @@
 
 .containerDesplegable {
     display: none;
+    z-index: 100;
 }
 
 .Persona {
@@ -181,7 +182,7 @@
         height: 15vh;
         background-color: #fff;
         z-index: 100;
-        top: -40px;
+        top: -50px;
         animation-name: desplegable;
         animation-duration: 2s;
         animation-timing-function: ease-in-out;
@@ -203,7 +204,6 @@
         justify-content: space-around;
         align-items: center;
         height: 100%;
-        z-index: 100;
     }
 
     .containerMenuDesple div {
