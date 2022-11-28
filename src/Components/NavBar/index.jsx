@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './NavBar.css'
+import equis from '../../img/equis.png'
 
 const NavBar = () => {
     const navigate = useNavigate()
@@ -63,11 +64,35 @@ const NavBar = () => {
                     abrirMenu ?
                         <div className='containerMenuDesple' onClick={pararPropa}>
                             <div className='containerMenu'>
-                                <button onClick={cerrarMenu}>X</button>
-                                <div onClick={() => navigate('/SobreMi')}>Sobre mi</div>
-                                <div onClick={() => navigate('/Habilidades')}>Habilidades</div>
-                                <div onClick={() => navigate('/Proyectos')}>Proyectos</div>
-                                <div onClick={() => navigate('/Contacto')}>Contacto</div>
+                                <img onClick={cerrarMenu} style={{ width: '40px', heigth: '40px' }} src={equis} />
+                                <div className='containerNavegadorCelu'>
+                                    <div className='containerSpan1'>
+                                        <span
+                                            className='Persona2'
+                                            onMouseEnter={mover}
+                                            onMouseLeave={volver}
+                                            onClick={() => {
+                                                navigate('/')
+                                                cerrarMenu()
+                                            }}>Leandro</span>
+                                        <span onClick={() => {
+                                            navigate('/SobreMi')
+                                            cerrarMenu()
+                                        }}>Sobre mi</span>
+                                        <span onClick={() => {
+                                            navigate('/Habilidades')
+                                            cerrarMenu()
+                                        }}>Habilidades</span>
+                                        <span onClick={() => {
+                                            navigate('/Proyectos')
+                                            cerrarMenu()
+                                        }}>Proyectos</span>
+                                        <span onClick={() => {
+                                            navigate('/Contacto')
+                                            cerrarMenu()
+                                        }}>Contacto</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         :
