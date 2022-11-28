@@ -9,7 +9,6 @@
 }
 
 .noFixed {
-    margin-top: 60px;
     height: 90vh;
     width: 100%;
     display: flex;
@@ -550,7 +549,15 @@
 @media (max-width:425px) {
 
     .containerSobreMi {
-        top: 30px;
+        height: 80vh;
+        top: 60px;
+    }
+
+    .containerGlobalHola {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .noFixed {
