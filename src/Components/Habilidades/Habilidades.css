@@ -1,4 +1,403 @@
 .containerHabilidades {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.containerAptitudes {
+    width: 50%;
+    height: 60%;
+    position: relative;
+}
+
+.containerAptitudes div {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 12px;
+    color: #2128DB;
+}
+
+.containerAptitudes div:nth-child(1) {
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(1)::after {
+    content: 'HTML5';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(2) {
+    border-radius: 50%;
+    position: absolute;
+    right: 185px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(2)::after {
+    content: 'CSS3';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(3) {
+    border-radius: 50%;
+    position: absolute;
+    right: 270px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(3)::after {
+    content: 'Javascript';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(4) {
+    border-radius: 50%;
+    position: absolute;
+    right: 355px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar4;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(4)::after {
+    content: 'Bootstrap';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(5) {
+    border-radius: 50%;
+    position: absolute;
+    right: 440px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar5;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(5)::after {
+    content: 'React.js';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(6) {
+    border-radius: 50%;
+    position: absolute;
+    right: 525px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar6;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(6)::after {
+    content: 'Redux';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(7) {
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar7;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(7)::after {
+    content: 'Sass';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(8) {
+    border-radius: 50%;
+    position: absolute;
+    right: 185px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar8;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(8)::after {
+    content: 'Node.js';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(9) {
+    border-radius: 50%;
+    position: absolute;
+    right: 270px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar9;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(9)::after {
+    content: 'PostgreSQL';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(10) {
+    border-radius: 50%;
+    position: absolute;
+    right: 355px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar10;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(10)::after {
+    content: 'Sequelize';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(11) {
+    border-radius: 50%;
+    position: absolute;
+    right: 440px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar11;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(11)::after {
+    content: 'Material UI';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(12) {
+    border-radius: 50%;
+    position: absolute;
+    right: 525px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar12;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerAptitudes div:nth-child(12)::after {
+    content: 'Express';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+@keyframes rotar1 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar2 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 50px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar3 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 70px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar4 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 90px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar5 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 110px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar6 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 130px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar7 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar8 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 170px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar9 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 190px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar10 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 210px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar11 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 230px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar12 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 250px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
 }
