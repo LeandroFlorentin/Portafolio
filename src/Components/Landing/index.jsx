@@ -14,7 +14,7 @@ const SobreMi = () => {
     const volver = (e) => {
         const cursor = document.querySelector('#cursor')
         cursor.style.transform = 'scale(1)'
-        cursor.style.backgroundColor = '#2128DB'
+        cursor.style.backgroundColor = '#08dff8'
         e.target.style.transform = 'scale(1)'
     }
 

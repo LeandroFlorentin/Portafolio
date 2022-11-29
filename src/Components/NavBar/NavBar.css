@@ -18,7 +18,7 @@
 .Persona {
     margin-left: 50px;
     font-weight: 600;
-    color: #2128DB;
+    color: #08dff8;
     position: relative;
     font-size: 20px;
     left: 0;
@@ -47,7 +47,7 @@
 
 .Persona2 {
     font-weight: 600;
-    color: #2128DB;
+    color: #08dff8;
     position: relative;
     font-size: 20px;
     transform: scale(1);
@@ -116,7 +116,7 @@
 
 .containerSpan div:nth-child(1) {
     content: "Sobre mi";
-    color: #2128DB;
+    color: #08dff8;
     position: relative;
     top: 0;
     transition: .5s all;
@@ -144,7 +144,7 @@
 
 .containerSpan div:nth-child(2) {
     content: "Habilidades";
-    color: #2128DB;
+    color: #08dff8;
     position: relative;
     top: 0;
     transition: .5s all;
@@ -159,7 +159,7 @@
 
 .containerSpan div:nth-child(3) {
     content: "Proyecto";
-    color: #2128DB;
+    color: #08dff8;
     position: relative;
     top: 0;
     transition: .5s all;
@@ -175,7 +175,7 @@
 
 .containerSpan div:nth-child(4) {
     content: "Contacto";
-    color: #2128DB;
+    color: #08dff8;
     position: relative;
     top: 0;
     transition: .5s all;
@@ -208,21 +208,21 @@
     .lineaDesple1 {
         width: 40px;
         height: 3px;
-        background-color: #2128DB;
+        background-color: #08dff8;
         border-radius: 25%;
     }
 
     .lineaDesple2 {
         width: 35px;
         height: 3px;
-        background-color: #2128DB;
+        background-color: #08dff8;
         border-radius: 25%;
     }
 
     .lineaDesple3 {
         width: 40px;
         height: 3px;
-        background-color: #2128DB;
+        background-color: #08dff8;
         border-radius: 25%;
     }
 
@@ -230,8 +230,8 @@
         position: absolute;
         z-index: 100;
         width: 100%;
-        height: 100vh;
-        background-color: #fff;
+        height: 110vh;
+        background-color: #000;
         z-index: 100;
         top: -40px;
         animation-name: desplegable;
@@ -260,7 +260,7 @@
     }
 
     .containerMenuDesple div {
-        color: #2128DB;
+        color: #08dff8;
         font-weight: 600;
         position: relative;
         z-index: 20;
@@ -274,7 +274,7 @@
         border-radius: 50%;
         font-weight: 600;
         border: none;
-        color: #2128DB;
+        color: #08dff8;
         background-color: transparent;
         position: absolute;
         top: 15px;
