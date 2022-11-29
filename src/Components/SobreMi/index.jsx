@@ -22,17 +22,17 @@ const SobreMi = () => {
         const cursor = document.querySelector('#cursor')
         cursor.style.transform = 'scale(0.5)'
         cursor.style.backgroundColor = 'yellow'
-        e.target.style.backgroundColor = '#2128DB'
-        e.target.style.color = '#fff'
+        e.target.style.backgroundColor = '#08dff8'
+        e.target.style.color = '#000'
         e.target.style.transform = 'scale(1.1)'
     }
 
     const noEncima = (e) => {
         const cursor = document.querySelector('#cursor')
         cursor.style.transform = 'scale(1)'
-        cursor.style.backgroundColor = '#2128DB'
-        e.target.style.backgroundColor = '#fff'
-        e.target.style.color = '#2128DB'
+        cursor.style.backgroundColor = '#08dff8'
+        e.target.style.backgroundColor = 'transparent'
+        e.target.style.color = '#08dff8'
         e.target.style.transform = 'scale(1)'
     }
 
@@ -40,7 +40,7 @@ const SobreMi = () => {
         <div className='containerSobreMi2'>
             <div className='seccionIzquierda'>
                 <div className='containerTextSobre'>
-                    <h1 onMouseEnter={mover} onMouseLeave={volver}>Quien soy?</h1>
+                    <h1 onMouseEnter={mover} onMouseLeave={volver} className='quienSoy'>Quien soy?</h1>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
                         Un desarrollador Full-Stack que reside en Argentina.
                         Me inicie en la programación realizando la carrera de desarrollador Front-End en CoderHouse

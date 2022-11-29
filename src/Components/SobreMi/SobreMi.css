@@ -47,14 +47,15 @@
     position: absolute;
     width: 70%;
     height: 85%;
-    color: #2128DB;
 }
 
 .containerTextSobre h1 {
     transition: .5s all;
+    font-size: 40px;
     position: relative;
     background-color: transparent;
     animation-name: difuminado;
+    color: #08dff8;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
 }
@@ -68,13 +69,15 @@
     background-color: transparent;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
+    color: #fff;
 }
 
 .containerTextSobre p:nth-child(4) {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     transform: scale(1);
     transition: .5s all;
+    color: #08dff8;
 }
 
 @keyframes difuminado {
@@ -92,8 +95,8 @@
 }
 
 .containerCoder {
-    color: #2128DB;
-    border: 1px solid #2128DB;
+    color: #08dff8;
+    border: 1px solid #08dff8;
     position: relative;
     width: 50%;
     height: 80px;
@@ -107,7 +110,7 @@
     cursor: none;
     transform: scale(1);
     transition: .8s all ease-in-out;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .seccionDerecha a {

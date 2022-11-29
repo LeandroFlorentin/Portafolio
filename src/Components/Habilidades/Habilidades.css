@@ -1,4 +1,645 @@
 .containerHabilidades {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.containerAptitudes {
+    width: 50%;
+    height: 60%;
+    position: relative;
+}
+
+.containerAptitudes div {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 12px;
+    color: #08dff8;
+    transition: .5s all ease-in-out;
+}
+
+.containerAptitudes div:nth-child(1) {
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(1)::after {
+    content: 'HTML5';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(2) {
+    border-radius: 50%;
+    position: absolute;
+    right: 185px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(2)::after {
+    content: 'CSS3';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(3) {
+    border-radius: 50%;
+    position: absolute;
+    right: 270px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(3)::after {
+    content: 'Javascript';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(4) {
+    border-radius: 50%;
+    position: absolute;
+    right: 355px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar4;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(4)::after {
+    content: 'Bootstrap';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(5) {
+    border-radius: 50%;
+    position: absolute;
+    right: 440px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar5;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(5)::after {
+    content: 'React.js';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(6) {
+    border-radius: 50%;
+    position: absolute;
+    right: 525px;
+    top: 0px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar6;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(6)::after {
+    content: 'Redux';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(7) {
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar7;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(7)::after {
+    content: 'Sass';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(8) {
+    border-radius: 50%;
+    position: absolute;
+    right: 185px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar8;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(8)::after {
+    content: 'Node.js';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(9) {
+    border-radius: 50%;
+    position: absolute;
+    right: 270px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar9;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(9)::after {
+    content: 'PostgreSQL';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(10) {
+    border-radius: 50%;
+    position: absolute;
+    right: 355px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar10;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(10)::after {
+    content: 'Sequelize';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(11) {
+    border-radius: 50%;
+    position: absolute;
+    right: 440px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar11;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(11)::after {
+    content: 'Material UI';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(12) {
+    border-radius: 50%;
+    position: absolute;
+    right: 525px;
+    top: 120px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar12;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(12)::after {
+    content: 'Express';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(13) {
+    border-radius: 50%;
+    position: absolute;
+    right: 270px;
+    top: 200px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar13;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(13)::after {
+    content: 'Git';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+.containerAptitudes div:nth-child(14) {
+    border-radius: 50%;
+    position: absolute;
+    right: 355px;
+    top: 200px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar14;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(14)::after {
+    content: 'GitHub';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
+@keyframes rotar1 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar2 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 50px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar3 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 70px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar4 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 90px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar5 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 110px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar6 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 130px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 0;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar7 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar8 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 170px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar9 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 190px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar10 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 210px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar11 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 230px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar12 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 250px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 120px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar13 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 300px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 200px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar14 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 320px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 200px;
+        filter: opacity(80%);
+    }
+}
+
+.containerDescrip {
+    width: 50%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.containerTextoHabi {
+    position: relative;
+    width: 80%;
+    height: 70%;
+}
+
+.containerTextoHabi h1 {
+    color: #08dff8;
+    font-size: 40px;
+    transition: .5s all ease-in-out;
+    animation-name: ejeZ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerTextoHabi p {
+    color: #fff;
+    font-size: 14px;
+    transition: .5s all ease-in-out;
+    animation-name: ejeZ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ejeZ {
+    0% {
+        transform: scale(0.5);
+        filter: opacity(20%);
+    }
+
+    100% {
+        transform: scale(1);
+        filter: opacity(100%);
+    }
+}
+
+@media (max-width:1024px) {
+    .containerAptitudes {
+        left: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .containerHabilidades {
+        flex-direction: column;
+        height: auto;
+        overflow: auto;
+    }
+
+    .containerDescrip {
+        width: 100%;
+    }
+
+    .containerAptitudes {
+        width: 70%;
+    }
+}
+
+@media (max-width:425px) {
+
+    .containerDescrip {
+        height: 100vh;
+    }
+
+    .containerAptitudes {
+        height: 60vh;
+        width: 100%;
+        left: 22%;
+    }
+}
+
+@media (max-width:375px) {
+    .containerDescrip {
+        height: 120vh;
+        align-items: flex-start;
+    }
+
+    .containerAptitudes div:nth-child(1) {
+        transform: scale(0.6);
+        right: 130px;
+    }
+
+    .containerAptitudes div:nth-child(2) {
+        transform: scale(0.6);
+        right: 160px;
+    }
+
+    .containerAptitudes div:nth-child(3) {
+        transform: scale(0.6);
+        right: 200px;
+    }
+
+    .containerAptitudes div:nth-child(4) {
+        transform: scale(0.6);
+        right: 250px;
+    }
+
+    .containerAptitudes div:nth-child(5) {
+        transform: scale(0.6);
+        right: 290px;
+    }
+
+    .containerAptitudes div:nth-child(6) {
+        transform: scale(0.6);
+        right: 330px;
+    }
+
+    .containerAptitudes div:nth-child(7) {
+        transform: scale(0.6);
+        right: 130px;
+    }
+
+    .containerAptitudes div:nth-child(8) {
+        transform: scale(0.6);
+        right: 160px;
+    }
+
+    .containerAptitudes div:nth-child(9) {
+        transform: scale(0.6);
+        right: 200px;
+    }
+
+    .containerAptitudes div:nth-child(10) {
+        transform: scale(0.6);
+        right: 250px;
+    }
+
+    .containerAptitudes div:nth-child(11) {
+        transform: scale(0.6);
+        right: 290px;
+    }
+
+    .containerAptitudes div:nth-child(12) {
+        transform: scale(0.6);
+        right: 330px;
+    }
+
+    .containerAptitudes div:nth-child(13) {
+        transform: scale(0.6);
+        right: 200px;
+    }
+
+    .containerAptitudes div:nth-child(14) {
+        transform: scale(0.6);
+        right: 250px;
+    }
+}
+
+@media (max-width:320px) {
+    .containerDescrip {
+        height: 140vh;
+    }
 }

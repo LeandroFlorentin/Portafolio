@@ -12,5 +12,6 @@ body {
   text-align: left;
   -webkit-font-smoothing: antialiased;
   cursor: none !important;
-  overflow: hidden
+  overflow: hidden;
+  background-color: #000;
 }
