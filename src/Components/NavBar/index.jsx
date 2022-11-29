@@ -48,7 +48,7 @@ const NavBar = () => {
     return (
         <>
             <div className='containerNavBar' onClick={pararPropa}>
-                <span className='Persona' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/')}>Leandro</span>
+                <h4 className='Persona' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/')}>Leandro</h4>
                 <div className='containerSpan'>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/SobreMi')}>Sobre mi</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Habilidades')}>Habilidades</div>
@@ -67,30 +67,30 @@ const NavBar = () => {
                                 <img onClick={cerrarMenu} style={{ width: '40px', heigth: '40px' }} src={equis} />
                                 <div className='containerNavegadorCelu'>
                                     <div className='containerSpan1'>
-                                        <span
+                                        <h3
                                             className='Persona2'
                                             onMouseEnter={mover}
                                             onMouseLeave={volver}
                                             onClick={() => {
                                                 navigate('/')
                                                 cerrarMenu()
-                                            }}>Leandro</span>
-                                        <span onClick={() => {
+                                            }}>Leandro</h3>
+                                        <h4 onClick={() => {
                                             navigate('/SobreMi')
                                             cerrarMenu()
-                                        }}>Sobre mi</span>
-                                        <span onClick={() => {
+                                        }}>Sobre mi</h4>
+                                        <h4 onClick={() => {
                                             navigate('/Habilidades')
                                             cerrarMenu()
-                                        }}>Habilidades</span>
-                                        <span onClick={() => {
+                                        }}>Habilidades</h4>
+                                        <h4 onClick={() => {
                                             navigate('/Proyectos')
                                             cerrarMenu()
-                                        }}>Proyectos</span>
-                                        <span onClick={() => {
+                                        }}>Proyectos</h4>
+                                        <h4 onClick={() => {
                                             navigate('/Contacto')
                                             cerrarMenu()
-                                        }}>Contacto</span>
+                                        }}>Contacto</h4>
                                     </div>
                                 </div>
                             </div>

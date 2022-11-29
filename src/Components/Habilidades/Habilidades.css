@@ -21,6 +21,7 @@
     position: absolute;
     font-size: 12px;
     color: #2128DB;
+    transition: .5s all ease-in-out;
 }
 
 .containerAptitudes div:nth-child(1) {
@@ -31,6 +32,7 @@
     animation-name: rotar1;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(1)::after {
@@ -49,6 +51,7 @@
     animation-name: rotar2;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(2)::after {
@@ -67,6 +70,7 @@
     animation-name: rotar3;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(3)::after {
@@ -85,6 +89,7 @@
     animation-name: rotar4;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(4)::after {
@@ -103,6 +108,7 @@
     animation-name: rotar5;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(5)::after {
@@ -121,6 +127,7 @@
     animation-name: rotar6;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(6)::after {
@@ -139,6 +146,7 @@
     animation-name: rotar7;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(7)::after {
@@ -157,6 +165,7 @@
     animation-name: rotar8;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(8)::after {
@@ -175,6 +184,7 @@
     animation-name: rotar9;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(9)::after {
@@ -193,6 +203,7 @@
     animation-name: rotar10;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(10)::after {
@@ -211,6 +222,7 @@
     animation-name: rotar11;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(11)::after {
@@ -229,6 +241,7 @@
     animation-name: rotar12;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: scale(1);
 }
 
 .containerAptitudes div:nth-child(12)::after {

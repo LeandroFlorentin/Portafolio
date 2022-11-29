@@ -77,11 +77,21 @@
     width: 100%;
 }
 
-.containerSpan1 span {
+.Persona2 {
+    position: relative;
+    left: -40%;
+}
+
+.Persona2::first-letter {
+    font-style: italic;
+}
+
+.containerSpan1 h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
     margin: 20px 0;
     width: 100%;
 }
