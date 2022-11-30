@@ -227,7 +227,7 @@
     }
 
     .containerMenuDesple {
-        position: absolute;
+        position: fixed;
         z-index: 100;
         width: 100%;
         height: 110vh;
@@ -237,6 +237,11 @@
         animation-name: desplegable;
         animation-duration: .8s;
         animation-timing-function: ease-in-out;
+    }
+
+    .containerMenu img {
+        position: relative;
+        bottom: 20px;
     }
 
     @keyframes desplegable {

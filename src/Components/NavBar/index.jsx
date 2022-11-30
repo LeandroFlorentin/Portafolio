@@ -64,7 +64,7 @@ const NavBar = () => {
                     abrirMenu ?
                         <div className='containerMenuDesple' onClick={pararPropa}>
                             <div className='containerMenu'>
-                                <img onClick={cerrarMenu} style={{ width: '40px', heigth: '40px' }} src={equis} />
+                                <img onClick={cerrarMenu} style={{ width: '40px', heigth: '40px', marginTop: '30px', marginRight: '10px' }} src={equis} />
                                 <div className='containerNavegadorCelu'>
                                     <div className='containerSpan1'>
                                         <h3
