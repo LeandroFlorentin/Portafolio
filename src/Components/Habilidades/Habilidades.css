@@ -29,7 +29,7 @@
     right: 100px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar1;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -48,7 +48,7 @@
     top: 0px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -67,7 +67,7 @@
     top: 0px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar3;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -86,7 +86,7 @@
     top: 0px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar4;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -105,7 +105,7 @@
     top: 0px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar5;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -124,7 +124,7 @@
     top: 0px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar6;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -143,7 +143,7 @@
     top: 120px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar7;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -162,7 +162,7 @@
     top: 120px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar8;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -181,7 +181,7 @@
     top: 120px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar9;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -200,7 +200,7 @@
     top: 120px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar10;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -219,7 +219,7 @@
     top: 120px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar11;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -238,7 +238,7 @@
     top: 120px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar12;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -257,7 +257,7 @@
     top: 200px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar13;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -276,7 +276,7 @@
     top: 200px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar14;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
 }
@@ -501,7 +501,7 @@
     font-size: 40px;
     transition: .5s all ease-in-out;
     animation-name: ejeZ;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
 
@@ -510,7 +510,7 @@
     font-size: 14px;
     transition: .5s all ease-in-out;
     animation-name: ejeZ;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
 

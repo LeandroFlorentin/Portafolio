@@ -25,8 +25,8 @@
     transform: scale(1);
     transition: 1s all;
     animation-name: entradaPersona;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .Persona::first-letter {
@@ -121,7 +121,7 @@
     top: 0;
     transition: .5s all;
     animation-name: arribaSpan;
-    animation-duration: 1.5s;
+    animation-duration: 1.2s;
     animation-timing-function: ease-in-out;
 }
 
@@ -149,7 +149,7 @@
     top: 0;
     transition: .5s all;
     animation-name: arribaSpan;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
 }
 
@@ -164,7 +164,7 @@
     top: 0;
     transition: .5s all;
     animation-name: arribaSpan;
-    animation-duration: 2.5s;
+    animation-duration: 1.8s;
     animation-timing-function: ease-in-out;
 }
 
@@ -180,7 +180,7 @@
     top: 0;
     transition: .5s all;
     animation-name: arribaSpan;
-    animation-duration: 3s;
+    animation-duration: 2.1s;
     animation-timing-function: ease-in-out;
 }
 

@@ -46,7 +46,7 @@
     position: relative;
     overflow: hidden;
     animation-name: entrada;
-    animation-duration: 3s;
+    animation-duration: 1.2s;
     animation-timing-function: ease-in-out;
     transition: .5s all ease-in-out;
 }
@@ -58,23 +58,23 @@
 }
 
 .containerHola span:nth-child(1) {
-    animation: muestraLetra 4s ease-in-out;
+    animation: muestraLetra 2.2s ease-in-out;
 }
 
 .containerHola span:nth-child(2) {
-    animation: muestraLetra 4.5s ease-in-out;
+    animation: muestraLetra 2.3s ease-in-out;
 }
 
 .containerHola span:nth-child(3) {
-    animation: muestraLetra 5s ease-in-out;
+    animation: muestraLetra 2.4s ease-in-out;
 }
 
 .containerHola span:nth-child(4) {
-    animation: muestraLetra 5.5s ease-in-out;
+    animation: muestraLetra 2.5s ease-in-out;
 }
 
 .containerHola span:nth-child(5) {
-    animation: muestraLetra 6s ease-in-out;
+    animation: muestraLetra 2.6s ease-in-out;
 }
 
 @keyframes muestraLetra {
@@ -92,7 +92,7 @@
     position: relative;
     overflow: hidden;
     animation-name: entrada;
-    animation-duration: 4s;
+    animation-duration: 1.8s;
     animation-timing-function: ease-in-out;
     transition: .5s all ease-in-out;
 }
@@ -104,44 +104,44 @@
 }
 
 .containerLeandro span:nth-child(1) {
-    animation: muestraLetra 6.2s ease-in-out;
+    animation: muestraLetra 3.2s ease-in-out;
 }
 
 .containerLeandro span:nth-child(2) {
-    animation: muestraLetra 6.4s ease-in-out;
+    animation: muestraLetra 3.3s ease-in-out;
 }
 
 .containerLeandro span:nth-child(3) {
     margin-right: 25px;
-    animation: muestraLetra 6.6s ease-in-out;
+    animation: muestraLetra 3.4s ease-in-out;
 }
 
 .containerLeandro span:nth-child(4) {
-    animation: muestraLetra 6.8s ease-in-out;
+    animation: muestraLetra 3.5s ease-in-out;
 }
 
 .containerLeandro span:nth-child(5) {
-    animation: muestraLetra 7s ease-in-out;
+    animation: muestraLetra 3.6s ease-in-out;
 }
 
 .containerLeandro span:nth-child(6) {
-    animation: muestraLetra 7.2s ease-in-out;
+    animation: muestraLetra 3.7s ease-in-out;
 }
 
 .containerLeandro span:nth-child(7) {
-    animation: muestraLetra 7.4s ease-in-out;
+    animation: muestraLetra 3.8s ease-in-out;
 }
 
 .containerLeandro span:nth-child(8) {
-    animation: muestraLetra 7.6s ease-in-out;
+    animation: muestraLetra 3.9s ease-in-out;
 }
 
 .containerLeandro span:nth-child(9) {
-    animation: muestraLetra 7.8s ease-in-out;
+    animation: muestraLetra 4s ease-in-out;
 }
 
 .containerLeandro span:nth-child(10) {
-    animation: muestraLetra 8s ease-in-out;
+    animation: muestraLetra 4.1s ease-in-out;
 }
 
 .containerDesarrollador {
@@ -150,7 +150,7 @@
     display: flex;
     flex-direction: row;
     animation-name: entrada;
-    animation-duration: 5s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
     transition: .5s all ease-in-out;
 }
@@ -165,112 +165,112 @@
     z-index: -3;
 }
 
-.containerDesarrollador div span:nth-child(1) {
-    animation: muestraLetra 8.2s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(1) {
+    animation: muestraLetra 4.3s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(2) {
-    animation: muestraLetra 8.4s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(2) {
+    animation: muestraLetra 4.4s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(3) {
-    animation: muestraLetra 8.6s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(3) {
+    animation: muestraLetra 4.5s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(4) {
-    animation: muestraLetra 8.8s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(4) {
+    animation: muestraLetra 4.6s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(5) {
-    animation: muestraLetra 9s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(5) {
+    animation: muestraLetra 4.7s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(6) {
-    animation: muestraLetra 9.2s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(6) {
+    animation: muestraLetra 4.8s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(7) {
-    animation: muestraLetra 9.4s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(7) {
+    animation: muestraLetra 4.9s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(8) {
-    animation: muestraLetra 9.6s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(8) {
+    animation: muestraLetra 5s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(9) {
-    animation: muestraLetra 9.8s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(9) {
+    animation: muestraLetra 5.1s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(10) {
-    animation: muestraLetra 10s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(10) {
+    animation: muestraLetra 5.2s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(11) {
-    animation: muestraLetra 10.2s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(11) {
+    animation: muestraLetra 5.3s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(12) {
-    animation: muestraLetra 10.4s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(12) {
+    animation: muestraLetra 5.4s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(13) {
-    animation: muestraLetra 10.6s ease-in-out;
+.containerDesarrollador div:nth-child(1) span:nth-child(13) {
+    animation: muestraLetra 5.5s ease-in-out;
     margin-right: 25px;
 }
 
-.containerDesarrollador span:nth-child(14) {
-    animation: muestraLetra 10.8s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(1) {
+    animation: muestraLetra 5.6s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(15) {
-    animation: muestraLetra 11s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(2) {
+    animation: muestraLetra 5.7s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(16) {
-    animation: muestraLetra 11.2s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(3) {
+    animation: muestraLetra 5.8s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(17) {
-    animation: muestraLetra 11.4s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(4) {
+    animation: muestraLetra 5.9s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(18) {
-    animation: muestraLetra 11.6s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(5) {
+    animation: muestraLetra 6s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(19) {
-    animation: muestraLetra 11.8s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(6) {
+    animation: muestraLetra 6.1s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(20) {
-    animation: muestraLetra 12s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(7) {
+    animation: muestraLetra 6.2s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(21) {
-    animation: muestraLetra 12.2s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(8) {
+    animation: muestraLetra 6.3s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(22) {
-    animation: muestraLetra 12.4s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(9) {
+    animation: muestraLetra 6.4s ease-in-out;
 }
 
-.containerDesarrollador span:nth-child(23) {
-    animation: muestraLetra 12.6s ease-in-out;
+.containerDesarrollador div:nth-child(2) span:nth-child(10) {
+    animation: muestraLetra 6.5s ease-in-out;
 }
 
 .pelotita1 {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: aqua;
+    background-color: #ff0099;
     border-radius: 100%;
     left: 5%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 6s;
-    animation-duration: 8s;
-    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -278,15 +278,15 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: orange;
+    background-color: #009999;
     border-radius: 100%;
     left: 40%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 5s;
-    animation-duration: 8s;
-    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -294,15 +294,15 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: green;
+    background-color: #ff3333;
     border-radius: 100%;
     left: 30%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 4s;
-    animation-duration: 8s;
-    animation-timing-function: ease;
+    animation-delay: 4.5s;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -310,15 +310,15 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: red;
+    background-color: #ff6600;
     border-radius: 100%;
     left: 60%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 8s;
-    animation-duration: 8s;
-    animation-timing-function: ease;
+    animation-delay: 1.5s;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -326,15 +326,15 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: violet;
+    background-color: #00ff00;
     border-radius: 100%;
     left: 70%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 7s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-delay: 6.5s;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -342,15 +342,15 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: maroon;
+    background-color: #ffffff;
     border-radius: 100%;
     left: 90%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
     animation-delay: 4.5s;
-    animation-duration: 7s;
-    animation-timing-function: ease;
+    animation-duration: 3.2s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -358,15 +358,15 @@
     position: absolute;
     width: 18px;
     height: 18px;
-    background-color: black;
+    background-color: #0000cc;
     border-radius: 100%;
     left: 98%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 5.5s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-delay: 2.5s;
+    animation-duration: 4.2s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -374,15 +374,15 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: deeppink;
+    background-color: #9966ff;
     border-radius: 100%;
     left: 10%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
     animation-delay: 6.5s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-duration: 5.2s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -390,15 +390,15 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: darkcyan;
+    background-color: #ff9900;
     border-radius: 100%;
     left: 15%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
     animation-delay: 9s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-duration: 6.2s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -406,15 +406,15 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: darkorchid;
+    background-color: #ff99ff;
     border-radius: 100%;
     left: 72%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 8.5s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-delay: 8.2s;
+    animation-duration: 7.2s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -422,15 +422,15 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: goldenrod;
+    background-color: #ccff66;
     border-radius: 100%;
     left: 35%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 10s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-delay: 9.1s;
+    animation-duration: 3.7s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -438,15 +438,15 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: indigo;
+    background-color: #0099ff;
     border-radius: 100%;
     left: 65%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
     animation-delay: 10.5s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-duration: 4.7s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -454,31 +454,15 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: lightsalmon;
-    border-radius: 100%;
-    left: 60%;
-    z-index: -5;
-    bottom: -10%;
-    animation-name: muestra;
-    animation-delay: 11.5s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-}
-
-.pelotita13 {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background-color: navy;
+    background-color: #00ccff;
     border-radius: 100%;
     left: 75%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
     animation-delay: 12.5s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-duration: 5.7s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -486,15 +470,15 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: navy;
+    background-color: #336600;
     border-radius: 100%;
     left: 65.5%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
     animation-delay: 13.5s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-duration: 6.7s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -502,21 +486,26 @@
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: orchid;
+    background-color: #0066ff;
     border-radius: 100%;
     left: 50%;
     z-index: -5;
     bottom: -10%;
     animation-name: muestra;
-    animation-delay: 7.5s;
-    animation-duration: 10s;
-    animation-timing-function: ease;
+    animation-delay: 7.7s;
+    animation-duration: 9.5s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
 @keyframes muestra {
     0% {
         bottom: -10%;
+        transform: perspective(600px) rotateX(90deg) rotateY(90deg);
+    }
+
+    50% {
+        transform: perspective(600px) rotateX(0deg) rotateY(0deg);
     }
 
     100% {

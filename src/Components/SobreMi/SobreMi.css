@@ -56,7 +56,7 @@
     background-color: transparent;
     animation-name: difuminado;
     color: #08dff8;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
 
@@ -67,7 +67,7 @@
     position: relative;
     animation-name: difuminado;
     background-color: transparent;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     color: #fff;
 }
