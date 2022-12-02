@@ -1,6 +1,20 @@
 import React from 'react'
 import './Habilidades.css'
 import { useNavigate } from 'react-router-dom'
+import ReactJS from '../../img/Tecnologias/react.png'
+import Redux from '../../img/Tecnologias/redux.png'
+import JScr from '../../img/Tecnologias/JS.png'
+import Node from '../../img/Tecnologias/node.png'
+import Express from '../../img/Tecnologias/express.png'
+import Sequelize from '../../img/Tecnologias/sequelize.png'
+import Postgre from '../../img/Tecnologias/postgresql.png'
+import Git from '../../img/Tecnologias/git.png'
+import GitHub from '../../img/Tecnologias/github.png'
+import Material from '../../img/Tecnologias/materialui.png'
+import Boot from '../../img/Tecnologias/boot.png'
+import Sass from '../../img/Tecnologias/sass.png'
+import Css from '../../img/Tecnologias/CSS.png'
+import Html from '../../img/Tecnologias/html.png'
 
 const Habilidades = () => {
     const navigate = useNavigate()
@@ -71,7 +85,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn-icons-png.flaticon.com/512/3128/3128323.png"
+                        src={Postgre}
                         alt='img1'
                         width="30px"
                         height="30px"
@@ -82,7 +96,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
+                        src={Sequelize}
                         alt='img2'
                         width="30px"
                         height="30px"
@@ -93,7 +107,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+                        src={Node}
                         alt='img3'
                         width="30px"
                         height="30px"
@@ -104,7 +118,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png"
+                        src={Express}
                         alt='img4'
                         width="30px"
                         height="30px"
@@ -115,7 +129,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn-icons-png.flaticon.com/128/875/875209.png"
+                        src={Redux}
                         alt='img5'
                         width="30px"
                         height="30px"
@@ -126,7 +140,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn.icon-icons.com/icons2/2415/PNG/128/redux_original_logo_icon_146365.png"
+                        src={ReactJS}
                         alt='img6'
                         width="30px"
                         height="30px"
@@ -137,7 +151,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn-icons-png.flaticon.com/128/5968/5968358.png"
+                        src={Sass}
                         alt='img7'
                         width="30px"
                         height="30px"
@@ -148,7 +162,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://img.icons8.com/color/2x/nodejs.png"
+                        src={Boot}
                         alt='img8'
                         width="30px"
                         height="30px"
@@ -159,7 +173,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn.icon-icons.com/icons2/2415/PNG/128/postgresql_plain_wordmark_logo_icon_146390.png"
+                        src={Material}
                         alt='img9'
                         width="30px"
                         height="30px"
@@ -170,7 +184,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn.icon-icons.com/icons2/2415/PNG/128/sequelize_original_logo_icon_146348.png"
+                        src={GitHub}
                         alt='img10'
                         width="30px"
                         height="30px"
@@ -181,7 +195,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://img.icons8.com/color/452/material-ui.png"
+                        src={Git}
                         alt='img11'
                         width="30px"
                         height="30px"
@@ -192,7 +206,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pagina-lg-simulacion.appspot.com/o/express.png?alt=media&token=387b8a64-27eb-4b1d-8b0b-2ccee55ec535"
+                        src={JScr}
                         alt='img12'
                         width="30px"
                         height="30px"
@@ -203,7 +217,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_git_icon_130581.png"
+                        src={Html}
                         alt='img12'
                         width="30px"
                         height="30px"
@@ -214,7 +228,7 @@ const Habilidades = () => {
                     onMouseLeave={achicar}
                 >
                     <img
-                        src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+                        src={Css}
                         alt='img12'
                         width="30px"
                         height="30px"

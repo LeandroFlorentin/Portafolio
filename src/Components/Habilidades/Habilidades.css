@@ -35,7 +35,7 @@
 }
 
 .containerAptitudes div:nth-child(1)::after {
-    content: 'HTML5';
+    content: 'PostgreSQL';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -54,7 +54,7 @@
 }
 
 .containerAptitudes div:nth-child(2)::after {
-    content: 'CSS3';
+    content: 'Sequelize';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -73,7 +73,7 @@
 }
 
 .containerAptitudes div:nth-child(3)::after {
-    content: 'Javascript';
+    content: 'Node.js';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -92,7 +92,7 @@
 }
 
 .containerAptitudes div:nth-child(4)::after {
-    content: 'Bootstrap';
+    content: 'Express';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -111,7 +111,7 @@
 }
 
 .containerAptitudes div:nth-child(5)::after {
-    content: 'React.js';
+    content: 'Redux';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -130,7 +130,7 @@
 }
 
 .containerAptitudes div:nth-child(6)::after {
-    content: 'Redux';
+    content: 'React.js';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -168,7 +168,7 @@
 }
 
 .containerAptitudes div:nth-child(8)::after {
-    content: 'Node.js';
+    content: 'Bootstrap';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -187,7 +187,7 @@
 }
 
 .containerAptitudes div:nth-child(9)::after {
-    content: 'PostgreSQL';
+    content: 'Material UI';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -206,7 +206,7 @@
 }
 
 .containerAptitudes div:nth-child(10)::after {
-    content: 'Sequelize';
+    content: 'GitHub';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -225,7 +225,7 @@
 }
 
 .containerAptitudes div:nth-child(11)::after {
-    content: 'Material UI';
+    content: 'Git';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -244,7 +244,7 @@
 }
 
 .containerAptitudes div:nth-child(12)::after {
-    content: 'Express';
+    content: 'Javascript';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -263,7 +263,7 @@
 }
 
 .containerAptitudes div:nth-child(13)::after {
-    content: 'Git';
+    content: 'HTML5';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
@@ -282,7 +282,7 @@
 }
 
 .containerAptitudes div:nth-child(14)::after {
-    content: 'GitHub';
+    content: 'CSS3';
     position: absolute;
     bottom: -10px;
     font-weight: 700;
