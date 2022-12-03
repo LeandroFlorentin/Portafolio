@@ -1,7 +1,10 @@
 import React from 'react'
 import './Landing.css'
+import { useNavigate } from 'react-router-dom'
 
 const SobreMi = () => {
+
+    const navigate = useNavigate();
 
     const mover = (e) => {
         const cursor = document.querySelector('#cursor')
@@ -15,6 +18,25 @@ const SobreMi = () => {
         const cursor = document.querySelector('#cursor')
         cursor.style.transform = 'scale(1)'
         cursor.style.backgroundColor = '#08dff8'
+        e.target.style.transform = 'scale(1)'
+    }
+
+    const pausaPelota = (e) => {
+        const cursor = document.querySelector('#cursor')
+        cursor.style.transform = 'scale(0.3)'
+        cursor.style.backgroundColor = 'red'
+        e.target.style.animationPlayState = 'paused'
+        e.target.style.backgroundColor = '#08dff8'
+        e.target.style.color = '#000'
+        e.target.style.transform = 'scale(1.2)'
+    }
+
+    const reanuPelota = (e) => {
+        const cursor = document.querySelector('#cursor')
+        cursor.style.transform = 'scale(1)'
+        e.target.style.animationPlayState = 'running'
+        e.target.style.backgroundColor = 'transparent'
+        e.target.style.color = '#08dff8'
         e.target.style.transform = 'scale(1)'
     }
 
@@ -87,6 +109,12 @@ const SobreMi = () => {
                 <div className='pelotita14'></div>
                 <div className='pelotita15'></div>
             </div>
+            <button
+                className='contactame'
+                onMouseEnter={pausaPelota}
+                onMouseLeave={reanuPelota}
+                onClick={() => navigate('/Contacto')}
+            >Contactame</button>
         </div>
     )
 }

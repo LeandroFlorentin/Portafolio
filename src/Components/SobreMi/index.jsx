@@ -38,6 +38,12 @@ const SobreMi = () => {
 
     return (
         <div className='containerSobreMi2'>
+            <div className='cuadradoSobre1'></div>
+            <div className='cuadradoSobre2'></div>
+            <div className='cuadradoSobre3'></div>
+            <div className='cuadradoSobre4'></div>
+            <div className='cuadradoSobre5'></div>
+            <div className='cuadradoSobre6'></div>
             <div className='seccionIzquierda'>
                 <div className='containerTextSobre'>
                     <h1 onMouseEnter={mover} onMouseLeave={volver} className='quienSoy'>Quien soy?</h1>

@@ -583,6 +583,76 @@
     }
 }
 
+.contactame {
+    position: absolute;
+    bottom: 5%;
+    height: 80px;
+    width: 80px;
+    font-size: 12px;
+    color: #08dff8;
+    border: 1px solid #08dff8;
+    background-color: transparent;
+    border-radius: 100%;
+    left: -100px;
+    cursor: none;
+    animation-name: contactame;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-duration: 11s;
+    font-weight: 700;
+    transform: scale(1);
+    animation-iteration-count: infinite;
+    transition: .5s all ease-in-out;
+}
+
+@keyframes contactame {
+    0% {
+        left: -100px;
+        bottom: 0;
+    }
+
+    10% {
+        bottom: 5%;
+    }
+
+    20% {
+        bottom: 0%;
+    }
+
+    30% {
+        bottom: 5%;
+    }
+
+    40% {
+        bottom: 0%;
+    }
+
+    50% {
+        bottom: 5%;
+    }
+
+    60% {
+        bottom: 0%;
+    }
+
+    70% {
+        bottom: 5%;
+    }
+
+    80% {
+        bottom: 0%;
+    }
+
+    90% {
+        bottom: 5%;
+    }
+
+    100% {
+        left: 100%;
+        bottom: 0%;
+    }
+}
+
 @media (max-width:375px) {
     .containerHola span {
         font-size: 40px;

@@ -15,6 +15,7 @@ import Boot from '../../img/Tecnologias/boot.png'
 import Sass from '../../img/Tecnologias/sass.png'
 import Css from '../../img/Tecnologias/CSS.png'
 import Html from '../../img/Tecnologias/html.png'
+import Firebase from '../../img/Tecnologias/firebase.png'
 
 const Habilidades = () => {
     const navigate = useNavigate()
@@ -230,6 +231,17 @@ const Habilidades = () => {
                     <img
                         src={Css}
                         alt='img12'
+                        width="30px"
+                        height="30px"
+                    />
+                </div>
+                <div
+                    onMouseEnter={agrandar}
+                    onMouseLeave={achicar}
+                >
+                    <img
+                        src={Firebase}
+                        alt='img10'
                         width="30px"
                         height="30px"
                     />

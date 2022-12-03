@@ -66,9 +66,9 @@
     transition: .5s all;
     position: relative;
     animation-name: difuminado;
-    background-color: transparent;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
+    background-color: transparent;
     color: #fff;
 }
 
@@ -82,14 +82,12 @@
 
 @keyframes difuminado {
     0% {
-        left: 25px;
-        bottom: -20px;
+        left: -100%;
         filter: opacity(0%);
     }
 
     100% {
         left: 0px;
-        bottom: 0px;
         filter: opacity(100%);
     }
 }
@@ -113,22 +111,255 @@
     background-color: transparent;
 }
 
-.seccionDerecha a {
+.seccionDerecha a:nth-child(1) {
+    animation-name: ingresoA;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.seccionDerecha a:nth-child(2) {
+    animation-name: ingresoA;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.seccionDerecha a:nth-child(3) {
     animation-name: ingresoA;
     animation-duration: 1.5s;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in-out;
+}
+
+.cuadradoSobre1 {
+    width: 15%;
+    height: 20%;
+    background-color: rgb(20, 20, 20);
+    top: 0;
+    left: 0;
+    bottom: 100%;
+    position: absolute;
+    animation-name: cuadrado1;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    border-radius: 100%
+}
+
+@keyframes cuadrado1 {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: 85%;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    75% {
+        top: 85%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.cuadradoSobre2 {
+    width: 15%;
+    height: 20%;
+    background-color: rgb(20, 20, 20);
+    top: 20%;
+    left: 15%;
+    position: absolute;
+    animation-name: cuadrado2;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    border-radius: 100%
+}
+
+@keyframes cuadrado2 {
+    0% {
+        top: 20%;
+    }
+
+    25% {
+        top: 65%;
+    }
+
+    50% {
+        top: 20%;
+    }
+
+    75% {
+        top: 65%;
+    }
+
+    100% {
+        top: 20%;
+    }
+}
+
+.cuadradoSobre3 {
+    width: 15%;
+    height: 20%;
+    background-color: rgb(20, 20, 20);
+    top: 40%;
+    left: 30%;
+    position: absolute;
+    animation-name: cuadrado3;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    border-radius: 100%
+}
+
+@keyframes cuadrado3 {
+    0% {
+        top: 40%;
+    }
+
+    25% {
+        top: 38%;
+    }
+
+    50% {
+        top: 40%;
+    }
+
+    75% {
+        top: 38%;
+    }
+
+    100% {
+        top: 40%;
+    }
+}
+
+.cuadradoSobre4 {
+    width: 15%;
+    height: 20%;
+    background-color: rgb(20, 20, 20);
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation-name: cuadrado4;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    border-radius: 100%
+}
+
+@keyframes cuadrado4 {
+    0% {
+        bottom: 0;
+    }
+
+    25% {
+        bottom: 85%;
+    }
+
+    50% {
+        bottom: 0;
+    }
+
+    75% {
+        bottom: 85%;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+.cuadradoSobre5 {
+    width: 15%;
+    height: 20%;
+    background-color: rgb(20, 20, 20);
+    bottom: 20%;
+    right: 15%;
+    position: absolute;
+    animation-name: cuadrado5;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    border-radius: 100%
+}
+
+@keyframes cuadrado5 {
+    0% {
+        bottom: 20%;
+    }
+
+    25% {
+        bottom: 65%;
+    }
+
+    50% {
+        bottom: 20%;
+    }
+
+    75% {
+        bottom: 65%;
+    }
+
+    100% {
+        bottom: 20%;
+    }
+}
+
+.cuadradoSobre6 {
+    width: 15%;
+    height: 20%;
+    background-color: rgb(20, 20, 20);
+    bottom: 40%;
+    right: 30%;
+    position: absolute;
+    animation-name: cuadrado6;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    border-radius: 100%
+}
+
+@keyframes cuadrado6 {
+    0% {
+        bottom: 40%;
+    }
+
+    25% {
+        bottom: 38%;
+    }
+
+    50% {
+        bottom: 40%;
+    }
+
+    75% {
+        bottom: 38%;
+    }
+
+    100% {
+        bottom: 40%;
+    }
 }
 
 @keyframes ingresoA {
     0% {
-        right: -30px;
-        bottom: -40px;
+        top: -1000px;
         filter: opacity(0%);
     }
 
     100% {
-        right: 0;
-        bottom: 0;
+        top: 0px;
         filter: opacity(100%);
     }
 }
