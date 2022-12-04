@@ -27,7 +27,7 @@
     transform: scale(1);
 }
 
-@keyframes movimientoGlobal {
+/* @keyframes movimientoGlobal {
     0% {
         left: 0px;
         top: 0px;
@@ -154,7 +154,7 @@
         top: -40px;
         transform: scale(1);
     }
-}
+} */
 
 .containerImgPro a {
     flex-wrap: wrap;
