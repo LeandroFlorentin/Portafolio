@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar'
 import Habilidades from './Components/Habilidades'
 import SobreMi from './Components/SobreMi'
 import Apps from './Components/Apps'
+import Contacto from './Components/Contacto'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
             <Route path='/SobreMi' element={<SobreMi />} />
             <Route path='/Habilidades' element={<Habilidades />} />
             <Route path='/Proyectos' element={<Apps />} />
+            <Route path='/Contacto' element={<Contacto />} />
           </Routes>
         </div>
       </BrowserRouter>
