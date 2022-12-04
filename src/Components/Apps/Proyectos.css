@@ -40,6 +40,8 @@
     10% {
         left: -40px;
         top: 40px;
+        border-top: none;
+        border-right: none;
     }
 
     15% {
@@ -217,6 +219,7 @@
     transform: scale(1);
     filter: grayscale(60%);
     transition: .5s all;
+    overflow: hidden;
 }
 
 .containerImgPro a:hover img {
@@ -228,112 +231,163 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
-.aPrimero span {
-    z-index: 10;
-    font-size: 14px;
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    color: #000;
-    font-weight: 700;
-    background-color: #08dff8;
+.aPrimero::after {
+    content: "Proyecto grupal Henry";
     position: absolute;
-    transform: scale(0);
-    transition: .5s all ease-in-out;
-    animation: cambiarColor ease-in-out 40s infinite;
-}
-
-.aPrimero:hover span {
-    transform: scale(1);
-}
-
-.aSegundo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.aSegundo span {
-    z-index: 10;
-    font-size: 14px;
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    color: #000;
+    bottom: -40px;
+    overflow: hidden;
+    width: 200px;
+    height: 20px;
+    color: #08dff8;
     font-weight: 700;
-    background-color: #08dff8;
+    text-align: center;
+    transition: .5s all;
+    animation: cambiarColorLetra ease-in-out 40s infinite;
+}
+
+.aPrimero:hover::after {
+    bottom: 20px;
+}
+
+.aSegundo::after {
+    content: "Proyecto individual Henry";
     position: absolute;
-    transform: scale(0);
-    transition: .5s all ease-in-out;
-    animation: cambiarColor ease-in-out 40s infinite;
-}
-
-.aSegundo:hover span {
-    transform: scale(1);
-}
-
-.aTercero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.aTercero span {
-    z-index: 10;
-    font-size: 14px;
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    color: #000;
+    bottom: -40px;
+    width: 220px;
+    height: 20px;
+    color: #08dff8;
     font-weight: 700;
-    background-color: #08dff8;
+    text-align: center;
+    transition: .5s all;
+    animation: cambiarColorLetra ease-in-out 40s infinite;
+}
+
+.aSegundo:hover::after {
+    bottom: 20px;
+}
+
+.aTercero::after {
+    content: "Proyecto GitHub";
     position: absolute;
-    transform: scale(0);
-    transition: .5s all ease-in-out;
-    animation: cambiarColor ease-in-out 40s infinite;
-}
-
-.aTercero:hover span {
-    transform: scale(1);
-}
-
-.aCuarto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.aCuarto span {
-    z-index: 10;
-    font-size: 14px;
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    color: #000;
+    bottom: -40px;
+    width: 220px;
+    height: 20px;
+    color: #08dff8;
     font-weight: 700;
-    background-color: #08dff8;
-    position: absolute;
-    transform: scale(0);
-    transition: .5s all ease-in-out;
-    animation: cambiarColor ease-in-out 40s infinite;
+    text-align: center;
+    transition: .5s all;
+    animation: cambiarColorLetra ease-in-out 40s infinite;
 }
 
-.aCuarto:hover span {
-    transform: scale(1);
+.aTercero:hover::after {
+    bottom: 20px;
+}
+
+.aCuarto::after {
+    content: "Proyecto LG CoderHouse";
+    position: absolute;
+    bottom: -40px;
+    width: 220px;
+    height: 20px;
+    color: #08dff8;
+    font-weight: 700;
+    text-align: center;
+    transition: .5s all;
+    animation: cambiarColorLetra ease-in-out 40s infinite;
+}
+
+.aCuarto:hover::after {
+    bottom: 20px;
+}
+
+@keyframes cambiarColorLetra {
+    0% {
+        color: #ff0099;
+    }
+
+    5% {
+        color: #08dff8;
+    }
+
+    10% {
+        color: #ff0099;
+    }
+
+    15% {
+        color: #08dff8;
+    }
+
+    20% {
+        color: #ff0099;
+    }
+
+    25% {
+        color: #08dff8;
+    }
+
+    30% {
+        color: #ff0099;
+    }
+
+    35% {
+        color: #08dff8;
+    }
+
+    40% {
+        color: #ff0099;
+    }
+
+    45% {
+        color: #08dff8;
+    }
+
+    50% {
+        color: #ff0099;
+    }
+
+    55% {
+        color: #08dff8;
+    }
+
+    60% {
+        color: #ff0099;
+    }
+
+    65% {
+        color: #08dff8;
+    }
+
+    70% {
+        color: #ff0099;
+    }
+
+    75% {
+        color: #08dff8;
+    }
+
+    80% {
+        color: #ff0099;
+    }
+
+    85% {
+        color: #08dff8;
+    }
+
+    90% {
+        color: #ff0099;
+    }
+
+    95% {
+        color: #08dff8;
+    }
+
+    100% {
+        color: #ff0099;
+    }
 }
 
 @keyframes cambiarColor {
@@ -443,28 +497,163 @@
     }
 }
 
+.aPrimero span {
+    z-index: 10;
+    font-size: 14px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #000;
+    font-weight: 700;
+    background-color: #08dff8;
+    position: absolute;
+    transform: scale(0);
+    transition: .5s all ease-in-out;
+    animation: cambiarColor ease-in-out 40s infinite;
+}
+
+.aPrimero:hover span {
+    transform: scale(1);
+}
+
+.aSegundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aSegundo span {
+    z-index: 10;
+    font-size: 14px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #000;
+    font-weight: 700;
+    background-color: #08dff8;
+    position: absolute;
+    transform: scale(0);
+    transition: .5s all ease-in-out;
+    animation: cambiarColor ease-in-out 40s infinite;
+}
+
+.aSegundo:hover span {
+    transform: scale(1);
+}
+
+.aTercero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aTercero span {
+    z-index: 10;
+    font-size: 14px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #000;
+    font-weight: 700;
+    background-color: #08dff8;
+    position: absolute;
+    transform: scale(0);
+    transition: .5s all ease-in-out;
+    animation: cambiarColor ease-in-out 40s infinite;
+}
+
+.aTercero:hover span {
+    transform: scale(1);
+}
+
+.aCuarto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aCuarto span {
+    z-index: 10;
+    font-size: 14px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #000;
+    font-weight: 700;
+    background-color: #08dff8;
+    position: absolute;
+    transform: scale(0);
+    transition: .5s all ease-in-out;
+    animation: cambiarColor ease-in-out 40s infinite;
+}
+
+.aCuarto:hover span {
+    transform: scale(1);
+}
+
 @media(max-width:425px) {
+
     .containerImgPro {
         animation-play-state: paused;
         overflow: auto;
-        margin-top: 500px;
         width: 90%;
-        height: 200vh;
+        height: 140vh;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top: 100px;
     }
 
-    .imagenProyec {
-        object-fit: contain;
+    .aSegundo::after {
+        display: none;
+    }
+
+    .aTercero::after {
+        display: none;
+    }
+
+    .aCuarto::after {
+        display: none;
+    }
+
+    .aPrimero::after {
+        display: none;
+    }
+
+    .aPrimero {
+        height: 200px;
+    }
+
+    .aSegundo {
+        height: 200px;
+    }
+
+    .aTercero {
+        height: 200px;
+    }
+
+    .aCuarto {
+        height: 200px;
     }
 
     .containerImgPro a {
         width: 100%;
-        height: 20%;
-        overflow: auto;
-        margin-bottom: 15px;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 50px;
     }
 
     @keyframes entrada1 {
@@ -508,8 +697,8 @@
     }
 }
 
-@media(max-width:420px) {
+@media(max-width:425px) {
     .containerImgPro {
-        margin-top: 800px;
+        margin-top: 300px;
     }
 }
