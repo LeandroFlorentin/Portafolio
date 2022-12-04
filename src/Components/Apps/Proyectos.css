@@ -605,16 +605,23 @@
 
 @media(max-width:425px) {
 
+    .containerAppsGlobal {
+        height: 180vh;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
     .containerImgPro {
         animation-play-state: paused;
         overflow: auto;
         width: 90%;
-        height: 140vh;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 100px;
+        z-index: 1;
+        position: relative;
     }
 
     .aSegundo::after {
@@ -697,8 +704,8 @@
     }
 }
 
-@media(max-width:425px) {
-    .containerImgPro {
-        margin-top: 300px;
+@media(max-width:420px) {
+    .containerAppsGlobal {
+        height: 120vh;
     }
 }

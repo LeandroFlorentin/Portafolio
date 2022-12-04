@@ -196,6 +196,7 @@
 
     .containerDesplegable {
         display: block;
+        position: relative;
         height: 50px;
         display: flex;
         flex-direction: column;
