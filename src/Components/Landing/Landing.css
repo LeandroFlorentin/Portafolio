@@ -613,43 +613,65 @@
 
     10% {
         bottom: 5%;
+        color: #ff0099;
+        border: 1px solid #ff0099;
     }
 
     20% {
         bottom: 0%;
+        color: #08dff8;
+        border: 1px solid #08dff8;
     }
 
     30% {
         bottom: 5%;
+        bottom: 5%;
+        color: #ff0099;
+        border: 1px solid #ff0099;
     }
 
     40% {
         bottom: 0%;
+        bottom: 0%;
+        color: #08dff8;
+        border: 1px solid #08dff8;
     }
 
     50% {
         bottom: 5%;
+        color: #ff0099;
+        border: 1px solid #ff0099;
     }
 
     60% {
         bottom: 0%;
+        color: #08dff8;
+        border: 1px solid #08dff8;
     }
 
     70% {
         bottom: 5%;
+        color: #ff0099;
+        border: 1px solid #ff0099;
     }
 
     80% {
         bottom: 0%;
+        color: #08dff8;
+        border: 1px solid #08dff8;
     }
 
     90% {
         bottom: 5%;
+        color: #ff0099;
+        border: 1px solid #ff0099;
     }
 
     100% {
         left: 100%;
         bottom: 0%;
+        color: #08dff8;
+        border: 1px solid #08dff8;
     }
 }
 

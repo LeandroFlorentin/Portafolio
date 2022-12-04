@@ -4,6 +4,7 @@ import Landing from './Components/Landing'
 import NavBar from './Components/NavBar'
 import Habilidades from './Components/Habilidades'
 import SobreMi from './Components/SobreMi'
+import Apps from './Components/Apps'
 
 function App() {
 
@@ -23,8 +24,9 @@ function App() {
           <NavBar />
           <Routes>
             <Route path='/' element={<Landing />} />
-            <Route exact path='/SobreMi' element={<SobreMi />} />
-            <Route exact path='/Habilidades' element={<Habilidades />} />
+            <Route path='/SobreMi' element={<SobreMi />} />
+            <Route path='/Habilidades' element={<Habilidades />} />
+            <Route path='/Proyectos' element={<Apps />} />
           </Routes>
         </div>
       </BrowserRouter>

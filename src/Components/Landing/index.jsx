@@ -24,10 +24,7 @@ const SobreMi = () => {
     const pausaPelota = (e) => {
         const cursor = document.querySelector('#cursor')
         cursor.style.transform = 'scale(0.3)'
-        cursor.style.backgroundColor = 'red'
         e.target.style.animationPlayState = 'paused'
-        e.target.style.backgroundColor = '#08dff8'
-        e.target.style.color = '#000'
         e.target.style.transform = 'scale(1.2)'
     }
 

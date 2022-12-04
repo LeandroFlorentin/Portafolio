@@ -24,6 +24,7 @@
     pointer-events: none;
     color: #000;
     font-weight: 700;
+    z-index: 1000000000000000;
     transition: 0.5s;
     transition-property: transform;
 }

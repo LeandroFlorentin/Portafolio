@@ -21,29 +21,17 @@ const SobreMi = () => {
     const encima = (e) => {
         const cursor = document.querySelector('#cursor')
         cursor.style.transform = 'scale(0.5)'
-        cursor.style.backgroundColor = 'yellow'
-        e.target.style.backgroundColor = '#08dff8'
-        e.target.style.color = '#000'
-        e.target.style.transform = 'scale(1.1)'
+        e.target.style.transform = 'scale(1.15)'
     }
 
     const noEncima = (e) => {
         const cursor = document.querySelector('#cursor')
         cursor.style.transform = 'scale(1)'
-        cursor.style.backgroundColor = '#08dff8'
-        e.target.style.backgroundColor = 'transparent'
-        e.target.style.color = '#08dff8'
         e.target.style.transform = 'scale(1)'
     }
 
     return (
         <div className='containerSobreMi2'>
-            <div className='cuadradoSobre1'></div>
-            <div className='cuadradoSobre2'></div>
-            <div className='cuadradoSobre3'></div>
-            <div className='cuadradoSobre4'></div>
-            <div className='cuadradoSobre5'></div>
-            <div className='cuadradoSobre6'></div>
             <div className='seccionIzquierda'>
                 <div className='containerTextSobre'>
                     <h1 onMouseEnter={mover} onMouseLeave={volver} className='quienSoy'>Quien soy?</h1>
