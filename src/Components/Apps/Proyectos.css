@@ -503,3 +503,9 @@
         }
     }
 }
+
+@media(max-width:420px) {
+    .containerImgPro {
+        margin-top: 800px;
+    }
+}
