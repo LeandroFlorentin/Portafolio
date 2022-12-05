@@ -335,6 +335,13 @@
 }
 
 @media(max-width:425px) {
+    .containerTextoForm {
+        align-items: center;
+    }
+
+    .containerContacto {
+        height: 160vh;
+    }
 
     .containerContactame {
         width: 95%;
