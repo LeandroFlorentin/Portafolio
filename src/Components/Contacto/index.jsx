@@ -31,6 +31,7 @@ const Contacto = () => {
                     Notiflix.Notify.success('Enviado con exito.', {
                         position: 'right-bottom',
                     })
+                    setEnviado(true)
                 })
                 .catch(err => {
                     console.log(err)

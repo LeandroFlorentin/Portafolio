@@ -45,7 +45,7 @@ const SobreMi = () => {
                         me gustan los desafios y buscar la mejor solución a los mismos, soy un fan de las MMA, entreno en el gimnasio a diario,
                         me gusta mucho leer, los gatos y jugar a la pelota.
                     </p>
-                    <p onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/Contacto')}>¡Entablemos contacto para un futuro proyecto!</p>
+                    <p className='entablar' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/Contacto')}>¡Entablemos contacto para un futuro proyecto!</p>
                 </div>
             </div>
             <div className='seccionDerecha'>

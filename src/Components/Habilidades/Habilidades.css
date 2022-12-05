@@ -539,12 +539,39 @@
     animation-timing-function: ease-in-out;
 }
 
-.containerTextoHabi p {
+.containerTextoHabi p:nth-child(2) {
     color: #fff;
     font-size: 14px;
     transition: .5s all ease-in-out;
     animation-name: ejeZ;
-    animation-duration: 1s;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerTextoHabi p:nth-child(3) {
+    color: #fff;
+    font-size: 14px;
+    transition: .5s all ease-in-out;
+    animation-name: ejeZ;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerTextoHabi p:nth-child(4) {
+    color: #fff;
+    font-size: 14px;
+    transition: .5s all ease-in-out;
+    animation-name: ejeZ;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+.containerTextoHabi p:nth-child(5) {
+    color: #fff;
+    font-size: 14px;
+    transition: .5s all ease-in-out;
+    animation-name: ejeZ;
+    animation-duration: 2s;
     animation-timing-function: ease-in-out;
 }
 

@@ -47,6 +47,7 @@
     position: absolute;
     width: 70%;
     height: 85%;
+    overflow: hidden;
 }
 
 .containerTextSobre h1 {
@@ -60,34 +61,64 @@
     animation-timing-function: ease-in-out;
 }
 
-.containerTextSobre p {
+.containerTextSobre p:nth-child(2) {
     font-size: 14px;
     transform: scale(1);
     transition: .5s all;
     position: relative;
-    animation-name: difuminado;
-    animation-duration: 1s;
+    animation-name: difuminado3;
+    animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     background-color: transparent;
+    transform: scale(1);
     color: #fff;
 }
 
-.containerTextSobre p:nth-child(4) {
+.containerTextSobre p:nth-child(3) {
+    font-size: 14px;
+    transition: .5s all;
+    position: relative;
+    animation-name: difuminado;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    background-color: transparent;
+    transform: scale(1);
+    color: #fff;
+}
+
+.entablar {
     font-size: 18px;
-    font-weight: 500;
     transform: scale(1);
     transition: .5s all;
+    position: relative;
+    animation-name: difuminado3;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    background-color: transparent;
+    transform: scale(1);
     color: #08dff8;
 }
 
 @keyframes difuminado {
     0% {
-        left: -100%;
+        left: -200%;
         filter: opacity(0%);
     }
 
     100% {
         left: 0px;
+        filter: opacity(100%);
+    }
+}
+
+@keyframes difuminado3 {
+    0% {
+        right: -200%;
+        filter: opacity(0%);
+    }
+
+    100% {
+        right: 0px;
         filter: opacity(100%);
     }
 }
