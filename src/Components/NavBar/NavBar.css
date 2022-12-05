@@ -67,7 +67,10 @@
 
 .Persona {
     margin-left: 50px;
+    margin-top: 20px;
     font-weight: 600;
+    width: 150px;
+    height: auto;
     color: #08dff8;
     position: relative;
     font-size: 20px;
@@ -96,12 +99,13 @@
 }
 
 .Persona2 {
-    font-weight: 600;
-    color: #08dff8;
+    width: 80px;
+    height: auto;
     position: relative;
-    font-size: 20px;
     transform: scale(1);
     transition: 1s all;
+    margin-top: 60px;
+    margin-left: -210px;
 }
 
 .Persona2::first-letter {
@@ -125,15 +129,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-.Persona2 {
-    position: relative;
-    left: -40%;
-}
-
-.Persona2::first-letter {
-    font-style: italic;
 }
 
 .containerSpan1 h4 {
@@ -250,6 +245,10 @@
         display: none;
     }
 
+    .Persona {
+        margin-left: 0;
+    }
+
     .containerDesplegable {
         display: block;
         position: relative;
@@ -335,8 +334,32 @@
     }
 }
 
+@media(max-width:420px) {
+    .Persona2 {
+        margin-top: 180px;
+    }
+}
+
 @media (max-width:375px) {
     .containerMenu div {
         font-size: 12px;
+    }
+
+    .Persona2 {
+        margin-left: -195px;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:360px) {
+    .Persona2 {
+        margin-left: -185px;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width:325px) {
+    .Persona2 {
+        margin-left: -175px;
     }
 }

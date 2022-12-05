@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './NavBar.css'
 import equis from '../../img/equis.png'
+import Leandro from '../../img/logoleandro.png'
+import Le from '../../img/logoL.png'
 
 const NavBar = () => {
     const navigate = useNavigate()
@@ -24,7 +26,7 @@ const NavBar = () => {
     const mover = (e) => {
         const cursor = document.querySelector('#cursor');
         cursor.style.transform = 'scale(0)'
-        e.target.style.transform = 'scale(1.5)'
+        e.target.style.transform = 'scale(1.2)'
     }
 
     const volver = (e) => {
@@ -48,7 +50,7 @@ const NavBar = () => {
     return (
         <>
             <div className='containerNavBar' onClick={pararPropa}>
-                <h4 className='Persona' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/')}>Leandro</h4>
+                <img src={Leandro} className='Persona' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/')} />
                 <div className='containerSpan'>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/SobreMi')}>Sobre mi</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Habilidades')}>Habilidades</div>
@@ -85,16 +87,17 @@ const NavBar = () => {
                         <div className='containerMenuDesple' onClick={pararPropa}>
                             <div className='containerMenu'>
                                 <img onClick={cerrarMenu} className='equis' src={equis} />
+                                <img
+                                    src={Le}
+                                    className='Persona2'
+                                    onMouseEnter={mover}
+                                    onMouseLeave={volver}
+                                    onClick={() => {
+                                        navigate('/')
+                                        cerrarMenu()
+                                    }} />
                                 <div className='containerNavegadorCelu'>
                                     <div className='containerSpan1'>
-                                        <h3
-                                            className='Persona2'
-                                            onMouseEnter={mover}
-                                            onMouseLeave={volver}
-                                            onClick={() => {
-                                                navigate('/')
-                                                cerrarMenu()
-                                            }}>Leandro</h3>
                                         <h4 onClick={() => {
                                             navigate('/SobreMi')
                                             cerrarMenu()
