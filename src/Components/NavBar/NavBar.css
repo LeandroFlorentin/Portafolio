@@ -15,6 +15,34 @@
     z-index: 100;
 }
 
+.linkedin {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    cursor: none;
+}
+
+.github {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    cursor: none;
+}
+
+.linkedinMenu {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    cursor: none;
+}
+
+.githubMenu {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    cursor: none;
+}
+
 .Persona {
     margin-left: 50px;
     font-weight: 600;
@@ -189,6 +217,12 @@
     top: -20px;
 }
 
+@media (max-width:768px) {
+    .containerSpan div {
+        margin-left: 20px;
+    }
+}
+
 @media (max-width:425px) {
     .containerSpan {
         display: none;
@@ -235,24 +269,11 @@
         background-color: #000;
         z-index: 100;
         top: -40px;
-        animation-name: desplegable;
-        animation-duration: .8s;
-        animation-timing-function: ease-in-out;
     }
 
     .containerMenu img {
         position: relative;
         bottom: 20px;
-    }
-
-    @keyframes desplegable {
-        0% {
-            top: -600%
-        }
-
-        100% {
-            top: -40px
-        }
     }
 
     .containerMenu {

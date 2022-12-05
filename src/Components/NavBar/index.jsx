@@ -54,6 +54,28 @@ const NavBar = () => {
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Habilidades')}>Habilidades</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Proyectos')}>Proyectos</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Contacto')}>Contacto</div>
+                    <a
+                        href='https://www.linkedin.com/in/leandro-florentin/'
+                        target='_BLANK'
+                    /*                 className='linkedin' */
+                    >
+                        <img
+                            className='imgRedes linkedin'
+                            src='https://img.shields.io/badge/--black?style=flat-square&logo=linkedin&logoColor=08dff8'
+                            alt='linkedin'
+                        />
+                    </a>
+                    <a
+                        href='https://github.com/LeandroFlorentin'
+                        target='_BLANK'
+                    /*                 className='github' */
+                    >
+                        <img
+                            className='imgRedes github'
+                            src='https://img.shields.io/badge/--black?style=flat-square&logo=github&logoColor=08dff8'
+                            alt='github'
+                        />
+                    </a>
                 </div>
                 <div className='containerDesplegable' onClick={openMenu}>
                     <div className='lineaDesple1'></div>
