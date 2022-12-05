@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .seccionIzquierda h1 {
@@ -47,7 +48,6 @@
     position: absolute;
     width: 70%;
     height: 85%;
-    overflow: hidden;
 }
 
 .containerTextSobre h1 {

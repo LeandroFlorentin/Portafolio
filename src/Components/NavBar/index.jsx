@@ -57,7 +57,6 @@ const NavBar = () => {
                     <a
                         href='https://www.linkedin.com/in/leandro-florentin/'
                         target='_BLANK'
-                    /*                 className='linkedin' */
                     >
                         <img
                             className='imgRedes linkedin'
@@ -68,7 +67,6 @@ const NavBar = () => {
                     <a
                         href='https://github.com/LeandroFlorentin'
                         target='_BLANK'
-                    /*                 className='github' */
                     >
                         <img
                             className='imgRedes github'

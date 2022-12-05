@@ -260,7 +260,7 @@
     border: 1px solid #08dff8;
     background-color: transparent;
     color: #08dff8;
-    animation: entrandoAbajo 1s ease-in-out;
+    animation: entrandoAbajo 2s ease-in-out;
     overflow: hidden;
 }
 
