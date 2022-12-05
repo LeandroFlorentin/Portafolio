@@ -261,7 +261,16 @@
         height: 100vh;
     }
 
+    .containerTextSobre {
+        height: 120vh;
+    }
+
     .seccionIzquierda {
-        height: 40vh;
+        width: 120%;
+        height: 80vh;
+    }
+
+    .seccionDerecha {
+        justify-content: center;
     }
 }
