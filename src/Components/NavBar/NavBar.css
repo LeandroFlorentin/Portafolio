@@ -293,9 +293,12 @@
         top: -40px;
     }
 
-    .containerMenu img {
+    .equis {
+        width: 40px;
+        height: 40px;
         position: relative;
-        bottom: 20px;
+        margin-top: 30px;
+        margin-left: -35px;
     }
 
     .containerMenu {
