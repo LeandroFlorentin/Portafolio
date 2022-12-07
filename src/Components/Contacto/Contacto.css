@@ -362,11 +362,12 @@
 @media(max-width:420px) {
 
     .containerContacto {
-        height: 90vh;
+        height: 160vh;
+        justify-content: center;
     }
 
     .containerTextoForm {
-        height: 45vh;
+        height: 80vh;
     }
 
     .textAreaI {
