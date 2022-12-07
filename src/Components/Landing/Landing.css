@@ -38,7 +38,19 @@
     font-weight: 700;
     z-index: 10;
     display: inline-block;
-    font-style: italic;
+    font-style: normal;
+    transition: .5s all ease-in-out;
+    animation: mueveLetra 5s ease-in-out infinite;
+}
+
+@keyframes mueveLetra {
+    0% {
+        font-style: normal;
+    }
+
+    100% {
+        font-style: italic;
+    }
 }
 
 .containerHola {

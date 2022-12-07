@@ -88,7 +88,7 @@ const Contacto = () => {
                         onMouseLeave={letraChica}
                         className='pInteresa'
                     >
-                        Me interesa buscar mi primera experiencia laboral en relación de dependencia en el mundo IT. Sin embargo si
+                        Estoy en busqueda de mi primera experiencia laboral en relación de dependencia en el mundo IT. Sin embargo si
                         tiene otra solicitud o pregunta, no dude en utilizar el formulario.
                     </p>
                     <div

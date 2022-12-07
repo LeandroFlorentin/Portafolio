@@ -18,7 +18,6 @@ import Html from '../../img/Tecnologias/html.png'
 import Firebase from '../../img/Tecnologias/firebase.png'
 
 const Habilidades = () => {
-    const navigate = useNavigate()
     const agrandar = (e) => {
         const cursor = document.querySelector('#cursor');
         cursor.style.transform = 'scale(0.5)';
@@ -49,12 +48,13 @@ const Habilidades = () => {
                     <h1 onMouseEnter={mover} onMouseLeave={volver}>Mis habilidades</h1>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
                         Comence este camino viendo videos de Youtube lo basico de HTML5 y CSS3,
-                        luego profundicé ingresando al cursor de CoderHouse y mientras terminaba el curso
+                        luego profundicé ingresando al curso de CoderHouse y mientras terminaba el curso
                         de React.js de CoderHouse cursaba soyHenry.
                     </p>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
                         Pasando por estos cursos conoci muchas tecnologias
-                        desde React.js, Redux, Javascript, Express.js, Sequelize, PostgreSQL, Git, GitHub, Node.js, Sass, CSS3 y HTML5.
+                        de Front como React.js, Redux, Javascript, Sass, Bootstrap, CSS3 y HTML5, de Back como
+                        Express.js, Sequelize, PostgreSQL, Node.js y tambien aprendi el manejo de Git y GitHub.
                         Por mi parte tambien aprendi la implementacion de Material UI.
                     </p>
                     <p onMouseEnter={mover} onMouseLeave={volver}>

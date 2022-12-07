@@ -50,7 +50,7 @@ const NavBar = () => {
     return (
         <>
             <div className='containerNavBar' onClick={pararPropa}>
-                <img src={Leandro} className='Persona' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/')} />
+                <img src={Leandro} className='Persona' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/')} alt='Leandro' />
                 <div className='containerSpan'>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/SobreMi')}>Sobre mi</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Habilidades')}>Habilidades</div>
