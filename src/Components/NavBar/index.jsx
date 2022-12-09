@@ -56,7 +56,7 @@ const NavBar = () => {
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Habilidades')}>Habilidades</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Proyectos')}>Proyectos</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Contacto')}>Contacto</div>
-                    <div>
+                    <div onMouseEnter={mover} onMouseLeave={volver}>
                         <a href='./CVFlorentinLeandro.pdf' download className='descargaCV'></a>
                     </div>
                     <a

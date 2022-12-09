@@ -23,14 +23,6 @@ const Apps = () => {
         <div className='containerAppsGlobal'>
             <div className='containerImgPro'>
                 <a
-                    href='https://plantango.vercel.app/' target='_BLANK'
-                    onMouseEnter={circulo} onMouseLeave={atras}
-                    className='aPrimero'
-                >
-                    <span>Ver proyecto</span>
-                    <img className='imagenProyec' src={Plantango} />
-                </a>
-                <a
                     href='https://videogames-chi.vercel.app/' target='_BLANK'
                     onMouseEnter={circulo} onMouseLeave={atras}
                     className='aSegundo'
@@ -53,6 +45,14 @@ const Apps = () => {
                 >
                     <span>Ver proyecto</span>
                     <img className='imagenProyec' src={Lg} />
+                </a>
+                <a
+                    href='https://plantango.vercel.app/' target='_BLANK'
+                    onMouseEnter={circulo} onMouseLeave={atras}
+                    className='aPrimero'
+                >
+                    <span>Ver proyecto</span>
+                    <img className='imagenProyec' src={Plantango} />
                 </a>
             </div>
         </div>
