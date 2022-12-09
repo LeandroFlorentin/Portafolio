@@ -49,6 +49,17 @@ const SobreMi = () => {
                 </div>
             </div>
             <div className='seccionDerecha'>
+                <a href='https://certificates.soyhenry.com/cert?id=6073f915-1d4d-4fc5-9a2d-acff4318f824'
+                    target='_BLANK'
+                    className='containerCoder'
+                    onMouseEnter={encima}
+                    onMouseLeave={noEncima}
+                >
+                    <h3
+                    >Henry Full Stack</h3>
+                    <p
+                    >Ver certificado</p>
+                </a>
                 <a href='https://www.coderhouse.com/certificados/6355d8726e1261000e425388'
                     target='_BLANK'
                     className='containerCoder'
@@ -67,7 +78,7 @@ const SobreMi = () => {
                     onMouseEnter={encima}
                     onMouseLeave={noEncima}
                 >
-                    <h3>CoderHouse javascript</h3>
+                    <h3>CoderHouse Javascript</h3>
                     <p>Ver certificado</p>
                 </a>
                 <a
