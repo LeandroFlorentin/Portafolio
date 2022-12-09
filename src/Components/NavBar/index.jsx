@@ -56,6 +56,9 @@ const NavBar = () => {
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Habilidades')}>Habilidades</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Proyectos')}>Proyectos</div>
                     <div onMouseEnter={circulo} onMouseLeave={atras} onClick={() => navigate('/Contacto')}>Contacto</div>
+                    <div>
+                        <a href='./CVFlorentinLeandro.pdf' download className='descargaCV'></a>
+                    </div>
                     <a
                         href='https://www.linkedin.com/in/leandro-florentin/'
                         target='_BLANK'
@@ -114,6 +117,9 @@ const NavBar = () => {
                                             navigate('/Contacto')
                                             cerrarMenu()
                                         }}>Contacto</h4>
+                                        <div>
+                                            <a href='./CVFlorentinLeandro.pdf' download className='descargaCV'></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

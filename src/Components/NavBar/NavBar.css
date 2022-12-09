@@ -10,6 +10,46 @@
     color: transparent;
 }
 
+.containerSpan div:nth-child(5) {
+    width: 170px;
+}
+
+.descargaCV {
+    padding: 5px 25px;
+    height: 30px;
+    margin-right: 25px;
+    background-color: transparent;
+    font-size: 13px;
+    border: 1px solid #08dff8;
+    color: #08dff8;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.descargaCV::after {
+    content: "Descargar CV";
+    color: #08dff8;
+    position: relative;
+    animation: moviendoTexto 4s linear infinite;
+}
+
+@keyframes moviendoTexto {
+    0% {
+        left: 150%
+    }
+
+    100% {
+        left: -150%;
+    }
+}
+
 .containerDesplegable {
     display: none;
     z-index: 100;
@@ -234,15 +274,43 @@
     top: -20px;
 }
 
-@media (max-width:768px) {
+@media(max-width:1024px) {
     .containerSpan div {
         margin-left: 20px;
+    }
+
+    .linkedin {
+        display: none;
+    }
+
+    .github {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .containerSpan div:nth-child(5) {
+        width: 170px;
+    }
+
+    .containerSpan div {
+        margin-left: 5px;
+        font-size: 12px;
     }
 }
 
 @media (max-width:425px) {
+
     .containerSpan {
         display: none;
+    }
+
+    .containerNavegadorCelu {
+        margin-top: 100px;
+    }
+
+    .descargaCV {
+        margin-right: 140px;
     }
 
     .Persona {
@@ -335,12 +403,21 @@
 }
 
 @media(max-width:420px) {
+    .descargaCV {
+        margin-right: 130px;
+    }
+
     .Persona2 {
         margin-top: 180px;
     }
 }
 
 @media (max-width:375px) {
+
+    .descargaCV {
+        margin-right: 110px;
+    }
+
     .containerMenu div {
         font-size: 12px;
     }
@@ -359,6 +436,14 @@
 }
 
 @media (max-width:325px) {
+    .descargaCV {
+        margin-right: 80px;
+    }
+
+    .containerNavegadorCelu {
+        margin-top: 180px;
+    }
+
     .Persona2 {
         margin-left: -175px;
     }

@@ -41,7 +41,7 @@ const SobreMi = () => {
                         y actualmente estoy finalizando el bootcamp de desarrollador Full-Stack de soyHenry.
                     </p>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
-                        Soy una persona muy organizada, intento ser muy puntual y comprometido en cualquier aspecto de mi vida,
+                        Soy una persona muy organizada, soy una persona muy puntual y comprometida en cualquier aspecto de mi vida,
                         me gustan los desafios y buscar la mejor solución a los mismos, soy un fan de las MMA, entreno en el gimnasio a diario,
                         me gusta mucho leer, los gatos y jugar a la pelota.
                     </p>
