@@ -90,17 +90,19 @@ const NavBar = () => {
                         <div className='containerMenuDesple' onClick={pararPropa}>
                             <div className='containerMenu'>
                                 <img onClick={cerrarMenu} className='equis' src={equis} />
-                                <img
-                                    src={Le}
-                                    className='Persona2'
-                                    onMouseEnter={mover}
-                                    onMouseLeave={volver}
-                                    onClick={() => {
-                                        navigate('/')
-                                        cerrarMenu()
-                                    }} />
                                 <div className='containerNavegadorCelu'>
                                     <div className='containerSpan1'>
+                                        <div>
+                                            <img
+                                                src={Le}
+                                                className='Persona2'
+                                                onMouseEnter={mover}
+                                                onMouseLeave={volver}
+                                                onClick={() => {
+                                                    navigate('/')
+                                                    cerrarMenu()
+                                                }} />
+                                        </div>
                                         <h4 onClick={() => {
                                             navigate('/SobreMi')
                                             cerrarMenu()
