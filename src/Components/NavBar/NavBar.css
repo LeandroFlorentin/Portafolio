@@ -463,14 +463,6 @@
         top: -40px;
     }
 
-    .equis {
-        width: 40px;
-        height: 40px;
-        position: relative;
-        margin-top: 30px;
-        margin-left: -35px;
-    }
-
     .containerMenu {
         position: relative;
         display: flex;
@@ -498,9 +490,6 @@
         border: none;
         color: #08dff8;
         background-color: transparent;
-        position: absolute;
-        top: 15px;
-        left: 90%;
         font-size: 25px;
     }
 }
