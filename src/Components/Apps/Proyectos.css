@@ -257,7 +257,7 @@
 }
 
 .aPrimero::after {
-    content: "Proyecto League of legends";
+    content: "Proyecto LOL";
     position: absolute;
     bottom: -40px;
     overflow: hidden;

@@ -31,12 +31,12 @@ const Apps = () => {
                     <img className='imagenProyec' src={Pi} />
                 </a>
                 <a
-                    href='https://github-proyect-ten.vercel.app/' target='_BLANK'
+                    href='https://front-lol.vercel.app/' target='_BLANK'
                     onMouseEnter={circulo} onMouseLeave={atras}
-                    className='aTercero'
+                    className='aPrimero'
                 >
                     <span>Ver proyecto</span>
-                    <img className='imagenProyec' src={GitHub} />
+                    <img className='imagenProyec' src={Lol} />
                 </a>
                 <a
                     href='https://proyecto-lg-rang.vercel.app/' target='_BLANK'
@@ -47,12 +47,12 @@ const Apps = () => {
                     <img className='imagenProyec' src={Lg} />
                 </a>
                 <a
-                    href='https://front-lol.vercel.app/' target='_BLANK'
+                    href='https://github-proyect-ten.vercel.app/' target='_BLANK'
                     onMouseEnter={circulo} onMouseLeave={atras}
-                    className='aPrimero'
+                    className='aTercero'
                 >
                     <span>Ver proyecto</span>
-                    <img className='imagenProyec' src={Lol} />
+                    <img className='imagenProyec' src={GitHub} />
                 </a>
             </div>
         </div>
