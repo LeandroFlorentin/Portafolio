@@ -257,7 +257,7 @@
 }
 
 .aPrimero::after {
-    content: "Proyecto grupal Henry";
+    content: "Proyecto League of legends";
     position: absolute;
     bottom: -40px;
     overflow: hidden;

@@ -2,7 +2,7 @@ import React from 'react'
 import './Proyectos.css'
 import Lg from '../../img/Proyectos/inicioLG.png'
 import GitHub from '../../img/Proyectos/modoOscuroLeandro.png'
-import Plantango from '../../img/Proyectos/plantangoLanding.png'
+import Lol from '../../img/Proyectos/LOL.png'
 import Pi from '../../img/Proyectos/videoGamesPI.png'
 
 const Apps = () => {
@@ -47,12 +47,12 @@ const Apps = () => {
                     <img className='imagenProyec' src={Lg} />
                 </a>
                 <a
-                    href='https://plantango.vercel.app/' target='_BLANK'
+                    href='https://front-lol.vercel.app/' target='_BLANK'
                     onMouseEnter={circulo} onMouseLeave={atras}
                     className='aPrimero'
                 >
                     <span>Ver proyecto</span>
-                    <img className='imagenProyec' src={Plantango} />
+                    <img className='imagenProyec' src={Lol} />
                 </a>
             </div>
         </div>
