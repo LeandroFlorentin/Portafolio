@@ -1,6 +1,5 @@
 import React from 'react'
 import './Habilidades.css'
-import { useNavigate } from 'react-router-dom'
 import ReactJS from '../../img/Tecnologias/react.png'
 import Redux from '../../img/Tecnologias/redux.png'
 import JScr from '../../img/Tecnologias/JS.png'
@@ -31,7 +30,7 @@ const Habilidades = () => {
 
     const mover = (e) => {
         const cursor = document.querySelector('#cursor');
-        cursor.style.transform = 'scale(0)'
+        cursor.style.transform = 'scale(0.5)'
         e.target.style.transform = 'scale(1.1)'
     }
 

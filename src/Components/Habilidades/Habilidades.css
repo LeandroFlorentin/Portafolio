@@ -254,8 +254,8 @@
 .containerAptitudes div:nth-child(13) {
     border-radius: 50%;
     position: absolute;
-    right: 270px;
-    top: 200px;
+    right: 355px;
+    top: 240px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar13;
     animation-duration: 1s;
@@ -273,8 +273,8 @@
 .containerAptitudes div:nth-child(14) {
     border-radius: 50%;
     position: absolute;
-    right: 355px;
-    top: 200px;
+    right: 440px;
+    top: 240px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar14;
     animation-duration: 1s;
@@ -292,8 +292,8 @@
 .containerAptitudes div:nth-child(15) {
     border-radius: 50%;
     position: absolute;
-    right: 440px;
-    top: 200px;
+    right: 525px;
+    top: 240px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
     animation-name: rotar15;
     animation-duration: 1s;
@@ -481,7 +481,7 @@
 
     100% {
         transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
-        top: 200px;
+        top: 240px;
         filter: opacity(80%);
     }
 }
@@ -495,7 +495,7 @@
 
     100% {
         transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
-        top: 200px;
+        top: 240px;
         filter: opacity(80%);
     }
 }
@@ -509,7 +509,7 @@
 
     100% {
         transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
-        top: 200px;
+        top: 240px;
         filter: opacity(80%);
     }
 }

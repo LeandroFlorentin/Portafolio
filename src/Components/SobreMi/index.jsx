@@ -8,7 +8,7 @@ const SobreMi = () => {
 
     const mover = (e) => {
         const cursor = document.querySelector('#cursor');
-        cursor.style.transform = 'scale(0)'
+        cursor.style.transform = 'scale(0.5)'
         e.target.style.transform = 'scale(1.1)'
     }
 
