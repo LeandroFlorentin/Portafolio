@@ -12,6 +12,12 @@ const Contacto = () => {
         mensaje: ""
     })
 
+    Notiflix.Notify.init({
+        success: {
+            background: '#08dff8',
+        },
+    });
+
     const enviarMail = (e) => {
         e.preventDefault()
         if (
