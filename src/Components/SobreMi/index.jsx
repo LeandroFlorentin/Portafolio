@@ -38,7 +38,7 @@ const SobreMi = () => {
                     <p onMouseEnter={mover} onMouseLeave={volver}>
                         Un desarrollador Full-Stack que reside en Argentina.
                         Me inicie en la programación realizando la carrera de desarrollador Front-End en CoderHouse
-                        y actualmente estoy finalizando el bootcamp de desarrollador Full-Stack de soyHenry.
+                        y luego realice el curso de desarrollador FullStack en Henry.
                     </p>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
                         Soy una persona muy organizada, soy una persona muy puntual y comprometida en cualquier aspecto de mi vida,

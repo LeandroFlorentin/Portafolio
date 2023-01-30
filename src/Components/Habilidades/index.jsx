@@ -54,7 +54,7 @@ const Habilidades = () => {
                         Pasando por estos cursos conoci muchas tecnologias
                         de Front como React.js, Redux, Javascript, Sass, Bootstrap, CSS3 y HTML5, de Back como
                         Express.js, Sequelize, PostgreSQL, Node.js y tambien aprendi el manejo de Git y GitHub.
-                        Por mi parte tambien aprendi la implementacion de Material UI.
+                        Por mi parte tambien aprendi la implementacion de Material UI y React native.
                     </p>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
                         Tambien tuve la experiencia de trabajar en un equipo de desarrollo en el curso de soyHenry, en el cual desarrollamos una aplicación de plantas
@@ -240,6 +240,17 @@ const Habilidades = () => {
                 >
                     <img
                         src={Firebase}
+                        alt='img10'
+                        width="30px"
+                        height="30px"
+                    />
+                </div>
+                <div
+                    onMouseEnter={agrandar}
+                    onMouseLeave={achicar}
+                >
+                    <img
+                        src={ReactJS}
                         alt='img10'
                         width="30px"
                         height="30px"
