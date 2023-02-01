@@ -1,10 +1,50 @@
+.containerCambio {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tituloCambio {
+    font-weight: 700;
+    color: #08dff8;
+    margin: 12px 0;
+    font-size: 25px;
+    animation: cambiooo 2s ease-in-out;
+}
+
+.botonCambio {
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: #08dff8;
+    background-color: transparent;
+    border: 1px solid #08dff8;
+    cursor: none;
+    transition: .5s all ease-in-out;
+    animation: cambiooo 2s ease-in-out;
+}
+
+@keyframes cambiooo {
+    0% {
+        filter: opacity(0%);
+    }
+
+    100% {
+        filter: opacity(100%)
+    }
+}
+
 .containerAppsGlobal {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     position: relative;
     display: flex;
+    margin-top: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .containerImgPro {
@@ -26,135 +66,6 @@
     top: 0;
     transform: scale(1);
 }
-
-/* @keyframes movimientoGlobal {
-    0% {
-        left: 0px;
-        top: 0px;
-    }
-
-    5% {
-        left: 40px;
-        top: -40px;
-        transform: scale(1.08);
-    }
-
-    10% {
-        left: -40px;
-        top: 40px;
-        border-top: none;
-        border-right: none;
-        transform: scale(1);
-    }
-
-    15% {
-        left: -40px;
-        top: -40px;
-        transform: scale(1.08);
-    }
-
-    20% {
-        left: 40px;
-        top: 40px;
-        transform: scale(1);
-    }
-
-    25% {
-        left: -40px;
-        top: -40px;
-        transform: scale(1.08);
-    }
-
-    30% {
-        left: -40px;
-        top: 40px;
-        transform: scale(1);
-    }
-
-    35% {
-        left: 40px;
-        top: 40px;
-        transform: scale(1.08);
-    }
-
-    40% {
-        left: -40px;
-        top: -40px;
-        transform: scale(1);
-    }
-
-    45% {
-        left: 40px;
-        top: -40px;
-        transform: scale(1.08);
-    }
-
-    50% {
-        left: -40px;
-        top: 40px;
-        transform: scale(1);
-    }
-
-    55% {
-        left: 40px;
-        top: 40px;
-        transform: scale(1.08);
-    }
-
-    60% {
-        left: -40px;
-        top: -40px;
-        transform: scale(1);
-    }
-
-    65% {
-        left: 40px;
-        top: -40px;
-        transform: scale(1.08);
-    }
-
-    70% {
-        left: -40px;
-        top: -40px;
-        transform: scale(1);
-    }
-
-    75% {
-        left: 40px;
-        top: -40px;
-        transform: scale(1.08);
-    }
-
-    80% {
-        left: 40px;
-        top: 40px;
-        transform: scale(1);
-    }
-
-    85% {
-        left: -40px;
-        top: -40px;
-        transform: scale(1.08);
-    }
-
-    90% {
-        left: 40px;
-        top: -40px;
-        transform: scale(1);
-    }
-
-    95% {
-        left: 40px;
-        top: 40px;
-        transform: scale(1.08);
-    }
-
-    100% {
-        left: -40px;
-        top: -40px;
-        transform: scale(1);
-    }
-} */
 
 .containerImgPro a {
     flex-wrap: wrap;

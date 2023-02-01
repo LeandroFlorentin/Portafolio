@@ -1,0 +1,302 @@
+.containerMobiles {
+  height: 71vh;
+  margin: 5px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.aMobiles {
+  position: absolute;
+  width: 200px;
+  height: 71vh;
+  cursor: none;
+  overflow: hidden;
+  transform: scale(1);
+  animation: entrada 1s ease-in-out;
+}
+
+@keyframes entrada {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.aMobiles:hover .imagenMobile {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+
+.imagenMobile {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  filter: grayscale(60%);
+  transition: .5s all ease-in-out;
+}
+
+.aMobiles:hover a:nth-child(1) {
+  transform: scale(1);
+}
+
+.aMobiles:hover a:nth-child(2) {
+  transform: scale(1);
+}
+
+.aMobiles a:nth-child(1) {
+  display: none;
+}
+
+.aMobiles a:nth-child(1) {
+  text-decoration: none;
+  position: absolute;
+  z-index: 10;
+  left: 30%;
+  bottom: 20%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #08dff8;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: none;
+  transform: scale(0);
+  transition: .5s all ease-in-out;
+  animation: cambiarColor ease-in-out 40s infinite;
+
+}
+
+.aMobiles a:nth-child(2) {
+  text-decoration: none;
+  position: absolute;
+  z-index: 10;
+  left: 30%;
+  bottom: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #08dff8;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: none;
+  transform: scale(0);
+  transition: .5s all ease-in-out;
+  animation: cambiarColor ease-in-out 40s infinite;
+}
+
+.aMobiles::after {
+  content: "Proyecto Pexel";
+  color: #ff0099;
+  position: absolute;
+  top: -80px;
+  font-weight: 700;
+  left: 23%;
+  transition: .5s all ease-in-out;
+  animation: cambiarColorLetra ease-in-out 40s infinite;
+}
+
+.aMobiles:hover::after {
+  top: 40px;
+}
+
+@keyframes cambiarColorLetra {
+  0% {
+    color: #ff0099;
+  }
+
+  5% {
+    color: #08dff8;
+  }
+
+  10% {
+    color: #ff0099;
+  }
+
+  15% {
+    color: #08dff8;
+  }
+
+  20% {
+    color: #ff0099;
+  }
+
+  25% {
+    color: #08dff8;
+  }
+
+  30% {
+    color: #ff0099;
+  }
+
+  35% {
+    color: #08dff8;
+  }
+
+  40% {
+    color: #ff0099;
+  }
+
+  45% {
+    color: #08dff8;
+  }
+
+  50% {
+    color: #ff0099;
+  }
+
+  55% {
+    color: #08dff8;
+  }
+
+  60% {
+    color: #ff0099;
+  }
+
+  65% {
+    color: #08dff8;
+  }
+
+  70% {
+    color: #ff0099;
+  }
+
+  75% {
+    color: #08dff8;
+  }
+
+  80% {
+    color: #ff0099;
+  }
+
+  85% {
+    color: #08dff8;
+  }
+
+  90% {
+    color: #ff0099;
+  }
+
+  95% {
+    color: #08dff8;
+  }
+
+  100% {
+    color: #ff0099;
+  }
+}
+
+@keyframes cambiarColor {
+  0% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  5% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  10% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  15% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  20% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  25% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  30% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  35% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  40% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  45% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  50% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  55% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  60% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  65% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  70% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  75% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  80% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  85% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  90% {
+    background-color: #08dff8;
+    color: #000;
+  }
+
+  95% {
+    background-color: #ff0099;
+    color: #fff;
+  }
+
+  100% {
+    background-color: #08dff8;
+    color: #000;
+  }
+}
