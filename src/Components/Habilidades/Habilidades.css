@@ -35,8 +35,6 @@
 
 }
 
-transform: scale(1);
-
 .containerAptitudes div:nth-child(1)::after {
     content: 'PostgreSQL';
     position: absolute;
