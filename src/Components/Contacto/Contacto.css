@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../../fonts/Raleway-Medium.ttf);
+}
+
 .containerContacto {
     height: 90vh;
     width: 100%;
@@ -44,6 +49,7 @@
     color: #fff;
     position: relative;
     left: 0;
+    font-family: Raleway;
     animation: izquierdaConta 1.5s ease-in-out;
     transform: scale(1);
     transition: .5s all ease-in-out;
@@ -73,6 +79,7 @@
     animation: abajoConta 2s ease-in-out;
     transform: scale(1);
     transition: .5s all ease-in-out;
+    font-family: Raleway;
 }
 
 @keyframes abajoConta {

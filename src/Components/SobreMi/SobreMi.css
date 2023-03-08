@@ -62,7 +62,13 @@
     animation-timing-function: ease-in-out;
 }
 
+@font-face {
+    font-family: Raleway;
+    src: url(../../fonts/Raleway-Medium.ttf);
+}
+
 .containerTextSobre p:nth-child(2) {
+    font-family: Raleway;
     font-size: 14px;
     transform: scale(1);
     transition: .5s all;
@@ -78,6 +84,7 @@
 .containerTextSobre p:nth-child(3) {
     font-size: 14px;
     transition: .5s all;
+    font-family: Raleway;
     position: relative;
     animation-name: difuminado;
     animation-duration: 2s;
@@ -90,6 +97,7 @@
 .entablar {
     font-size: 18px;
     transform: scale(1);
+    font-family: Raleway;
     transition: .5s all;
     position: relative;
     animation-name: difuminado3;

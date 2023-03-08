@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../../fonts/Raleway-Medium.ttf);
+}
+
 .containerHabilidades {
     height: 90vh;
     width: 100%;
@@ -581,6 +586,7 @@
     animation-name: ejeZ;
     animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
+    font-family: Raleway;
 }
 
 .containerTextoHabi p:nth-child(3) {
@@ -590,6 +596,7 @@
     animation-name: ejeZ;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
+    font-family: Raleway;
 }
 
 .containerTextoHabi p:nth-child(4) {
@@ -599,6 +606,7 @@
     animation-name: ejeZ;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
+    font-family: Raleway;
 }
 
 .containerTextoHabi p:nth-child(5) {
@@ -608,6 +616,7 @@
     animation-name: ejeZ;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    font-family: Raleway;
 }
 
 @keyframes ejeZ {
