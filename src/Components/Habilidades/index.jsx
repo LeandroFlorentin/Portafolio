@@ -69,7 +69,7 @@ const Habilidades = () => {
                             margin: '0px 3px'
                         }}>Linkedin</a>
                         para mas detalles o simplemente
-                        <a href='https://portafolio-gold-seven.vercel.app/Contacto' style={{
+                        <a href='https://portafolio-leandro-florentin.vercel.app/Contacto' style={{
                             color: '#08dff8',
                             cursor: 'none',
                             textDecoration: 'none',

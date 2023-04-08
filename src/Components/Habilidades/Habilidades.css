@@ -29,6 +29,10 @@
     transition: .5s all ease-in-out;
 }
 
+.containerAptitudes div:hover {
+    filter: drop-shadow(2px 2px 1px #08dff8)
+}
+
 .containerAptitudes div:nth-child(1) {
     border-radius: 50%;
     position: absolute;
