@@ -4,6 +4,11 @@ import { useNavigate } from 'react-router-dom'
 
 const SobreMi = () => {
 
+    const certificados = [{ href: 'https://certificates.soyhenry.com/cert?id=6073f915-1d4d-4fc5-9a2d-acff4318f824', titulo: "Henry Full Stack", certificado: "Ver certificado" },
+    { href: 'https://www.coderhouse.com/certificados/6355d8726e1261000e425388', titulo: "CoderHouse React.js", certificado: "Ver certificado" },
+    { href: 'https://www.coderhouse.com/certificados/62e6e92126daca0024e1f8e4', titulo: "CoderHouse Javascript", certificado: "Ver certificado" },
+    { href: 'https://www.coderhouse.com/certificados/627c858493f86500199f6272', titulo: "CoderHouse desarrollo web", certificado: "Ver certificado" }]
+
     const navigate = useNavigate()
 
     const mover = (e) => {
@@ -49,48 +54,24 @@ const SobreMi = () => {
                 </div>
             </div>
             <div className='seccionDerecha'>
-                <a href='https://certificates.soyhenry.com/cert?id=6073f915-1d4d-4fc5-9a2d-acff4318f824'
-                    target='_BLANK'
-                    className='containerCoder'
-                    onMouseEnter={encima}
-                    onMouseLeave={noEncima}
-                >
-                    <h3
-                    >Henry Full Stack</h3>
-                    <p
-                    >Ver certificado</p>
-                </a>
-                <a href='https://www.coderhouse.com/certificados/6355d8726e1261000e425388'
-                    target='_BLANK'
-                    className='containerCoder'
-                    onMouseEnter={encima}
-                    onMouseLeave={noEncima}
-                >
-                    <h3
-                    >CoderHouse React.js</h3>
-                    <p
-                    >Ver certificado</p>
-                </a>
-                <a
-                    href='https://www.coderhouse.com/certificados/62e6e92126daca0024e1f8e4'
-                    target='_BLANK'
-                    className='containerCoder'
-                    onMouseEnter={encima}
-                    onMouseLeave={noEncima}
-                >
-                    <h3>CoderHouse Javascript</h3>
-                    <p>Ver certificado</p>
-                </a>
-                <a
-                    href='https://www.coderhouse.com/certificados/627c858493f86500199f6272'
-                    target='_BLANK'
-                    className='containerCoder'
-                    onMouseEnter={encima}
-                    onMouseLeave={noEncima}
-                >
-                    <h3>CoderHouse desarrollo web</h3>
-                    <p>Ver certificado</p>
-                </a>
+                {
+                    certificados.map((value, key) => {
+                        return (
+                            <a href={value.href}
+                                key={key}
+                                target='_BLANK'
+                                className='containerCoder'
+                                onMouseEnter={encima}
+                                onMouseLeave={noEncima}
+                            >
+                                <h3
+                                >{value.titulo}</h3>
+                                <p
+                                >{value.certificado}</p>
+                            </a>
+                        )
+                    })
+                }
             </div>
         </div>
     )

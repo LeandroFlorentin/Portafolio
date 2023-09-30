@@ -17,11 +17,14 @@ import Html from '../../img/Tecnologias/html.png'
 import Firebase from '../../img/Tecnologias/firebase.png'
 
 const Habilidades = () => {
+    const imagenes = [{ src: Postgre }, { src: Sequelize }, { src: Node }, { src: Express }, { src: Redux }, { src: ReactJS }, { src: Sass }, { src: Boot },
+    { src: Material }, { src: GitHub }, { src: Git }, { src: JScr }, { src: Html }, { src: Css }, { src: Firebase }, { src: ReactJS }]
     const agrandar = (e) => {
         const cursor = document.querySelector('#cursor');
         cursor.style.transform = 'scale(0.5)';
         e.target.style.transform = 'scale(1.2)';
     }
+
     const achicar = (e) => {
         const cursor = document.querySelector('#cursor');
         cursor.style.transform = 'scale(1)';
@@ -80,182 +83,24 @@ const Habilidades = () => {
                 </div>
             </div>
             <div className='containerAptitudes'>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Postgre}
-                        alt='img1'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Sequelize}
-                        alt='img2'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Node}
-                        alt='img3'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Express}
-                        alt='img4'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Redux}
-                        alt='img5'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={ReactJS}
-                        alt='img6'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Sass}
-                        alt='img7'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Boot}
-                        alt='img8'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Material}
-                        alt='img9'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={GitHub}
-                        alt='img10'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Git}
-                        alt='img11'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={JScr}
-                        alt='img12'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Html}
-                        alt='img12'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Css}
-                        alt='img12'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={Firebase}
-                        alt='img10'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
-                <div
-                    onMouseEnter={agrandar}
-                    onMouseLeave={achicar}
-                >
-                    <img
-                        src={ReactJS}
-                        alt='img10'
-                        width="30px"
-                        height="30px"
-                    />
-                </div>
+                {
+                    imagenes.map((value, key) => {
+                        return (
+                            <div
+                                key={key}
+                                onMouseEnter={agrandar}
+                                onMouseLeave={achicar}
+                            >
+                                <img
+                                    src={value.src}
+                                    alt={`img${key}`}
+                                    width="30px"
+                                    height="30px"
+                                />
+                            </div>
+                        )
+                    })
+                }
             </div>
         </div>
     )
