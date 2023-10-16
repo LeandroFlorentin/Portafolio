@@ -44,10 +44,11 @@ const SobreMi = () => {
                         Un desarrollador Full-Stack que reside en Argentina.
                         Me inicie en la programación realizando la carrera de desarrollador Front-End en CoderHouse
                         y luego realice el curso de desarrollador FullStack en Henry.
+                        Actualmente me encuentro trabajando en la empresa Flexit desde Marzo de 2023.
                     </p>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
                         Soy una persona muy organizada, puntual y comprometida en cualquier aspecto de mi vida,
-                        me gustan los desafios y buscar la mejor solución a los mismos, soy un fan de las MMA, entreno en el gimnasio a diario,
+                        me gustan los desafios y buscar la mejor solución a los mismos, entreno en el gimnasio a diario,
                         me gusta mucho leer, los gatos y jugar a la pelota.
                     </p>
                     <p className='entablar' onMouseEnter={mover} onMouseLeave={volver} onClick={() => navigate('/Contacto')}>¡Entablemos contacto para un futuro proyecto!</p>
