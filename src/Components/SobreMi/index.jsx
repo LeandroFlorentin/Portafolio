@@ -26,7 +26,7 @@ const SobreMi = () => {
     const encima = (e) => {
         const cursor = document.querySelector('#cursor')
         cursor.style.transform = 'scale(0.5)'
-        e.target.style.transform = 'scale(1.15)'
+        e.target.style.transform = 'scale(1.05)'
     }
 
     const noEncima = (e) => {

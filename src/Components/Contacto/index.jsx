@@ -94,8 +94,7 @@ const Contacto = () => {
                         onMouseLeave={letraChica}
                         className='pInteresa'
                     >
-                        Estoy en busqueda de mi primera experiencia laboral en relación de dependencia en el mundo IT. Sin embargo si
-                        tiene otra solicitud o pregunta, no dude en utilizar el formulario.
+                        Lo invito que ante cualquier pregunta o solicitud no dude en utilizar el formulario, estoy abierto a cualquier tipo de propuesta.
                     </p>
                     <div
                         className='containerUbicacionConta'

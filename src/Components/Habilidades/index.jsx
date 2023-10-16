@@ -15,10 +15,13 @@ import Sass from '../../img/Tecnologias/sass.png'
 import Css from '../../img/Tecnologias/CSS.png'
 import Html from '../../img/Tecnologias/html.png'
 import Firebase from '../../img/Tecnologias/firebase.png'
+import typescript from '../../img/Tecnologias/typescript.png'
+import bitbucket from '../../img/Tecnologias/bitbucket.png'
+import sqlite from '../../img/Tecnologias/sqlite.png'
 
 const Habilidades = () => {
     const imagenes = [{ src: Postgre }, { src: Sequelize }, { src: Node }, { src: Express }, { src: Redux }, { src: ReactJS }, { src: Sass }, { src: Boot },
-    { src: Material }, { src: GitHub }, { src: Git }, { src: JScr }, { src: Html }, { src: Css }, { src: Firebase }, { src: ReactJS }]
+    { src: Material }, { src: GitHub }, { src: Git }, { src: JScr }, { src: Html }, { src: Css }, { src: Firebase }, { src: ReactJS }, { src: typescript }, { src: bitbucket }, { src: sqlite }]
     const agrandar = (e) => {
         const cursor = document.querySelector('#cursor');
         cursor.style.transform = 'scale(0.5)';
@@ -57,11 +60,11 @@ const Habilidades = () => {
                         Pasando por estos cursos conoci muchas tecnologias
                         de Front como React.js, Redux, Javascript, Sass, Bootstrap, CSS3 y HTML5, de Back como
                         Express.js, Sequelize, PostgreSQL, Node.js y tambien aprendi el manejo de Git y GitHub.
-                        Por mi parte tambien aprendi la implementacion de Material UI y React native.
+                        Por mi parte tambien aprendi la implementacion de Material UI.
                     </p>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
-                        Tambien tuve la experiencia de trabajar en un equipo de desarrollo en el curso de soyHenry, en el cual desarrollamos una aplicación de plantas
-                        en este proceso aprendimos el manejo de GitFlow y metodologias agiles como SCRUM.
+                        Actualmente me encuentro trabajando en la empresa Flexit como desarrollador Full Stack, en la cual implemente nuevas herramientas como TypeScript, SQLite, entre otros.
+                        Con estas nuevas herramientas desarrolle APIS, microservicios y paginas web, siendo bitbucket la plataforma donde se maneja el repositorio.
                     </p>
                     <p onMouseEnter={mover} onMouseLeave={volver}>
                         Visita mi perfil de
