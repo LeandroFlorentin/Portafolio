@@ -382,7 +382,7 @@
     right: 525px;
     top: 320px;
     transform: perspective(0) rotateX(0deg) rotateY(0deg);
-    animation-name: rotar15;
+    animation-name: rotar19;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     transform: scale(1);
@@ -611,6 +611,20 @@
     100% {
         transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
         top: 240px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar19 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 420px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 320px;
         filter: opacity(80%);
     }
 }
