@@ -18,10 +18,11 @@ import Firebase from '../../img/Tecnologias/firebase.png'
 import typescript from '../../img/Tecnologias/typescript.png'
 import bitbucket from '../../img/Tecnologias/bitbucket.png'
 import sqlite from '../../img/Tecnologias/sqlite.png'
+import python from '../../img/Tecnologias/python.png'
 
 const Habilidades = () => {
     const imagenes = [{ src: Postgre }, { src: Sequelize }, { src: Node }, { src: Express }, { src: Redux }, { src: ReactJS }, { src: Sass }, { src: Boot },
-    { src: Material }, { src: GitHub }, { src: Git }, { src: JScr }, { src: Html }, { src: Css }, { src: Firebase }, { src: ReactJS }, { src: typescript }, { src: bitbucket }, { src: sqlite }]
+    { src: Material }, { src: GitHub }, { src: Git }, { src: JScr }, { src: Html }, { src: Css }, { src: Firebase }, { src: ReactJS }, { src: typescript }, { src: bitbucket }, { src: sqlite }, { src: python }]
     const agrandar = (e) => {
         const cursor = document.querySelector('#cursor');
         cursor.style.transform = 'scale(0.5)';

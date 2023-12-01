@@ -395,6 +395,25 @@
     font-weight: 700;
 }
 
+.containerAptitudes div:nth-child(20) {
+    border-radius: 50%;
+    position: absolute;
+    right: 440px;
+    top: 320px;
+    transform: perspective(0) rotateX(0deg) rotateY(0deg);
+    animation-name: rotar20;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    transform: scale(1);
+}
+
+.containerAptitudes div:nth-child(20)::after {
+    content: 'Python';
+    position: absolute;
+    bottom: -10px;
+    font-weight: 700;
+}
+
 @keyframes rotar1 {
     0% {
         transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
@@ -616,6 +635,20 @@
 }
 
 @keyframes rotar19 {
+    0% {
+        transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
+        top: 420px;
+        filter: opacity(0%);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        top: 320px;
+        filter: opacity(80%);
+    }
+}
+
+@keyframes rotar20 {
     0% {
         transform: perspective(1000px) rotateX(90deg) rotateY(90deg);
         top: 420px;
